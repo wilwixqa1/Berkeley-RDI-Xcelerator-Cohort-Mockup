@@ -44,16 +44,28 @@ a:hover { text-decoration: underline; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
+  height: 88px;
 }
 .brand {
-  font-weight: 700;
-  font-size: 17px;
-  color: var(--berkeley-blue);
+  display: flex;
+  align-items: center;
+  gap: 18px;
   text-decoration: none;
 }
-.brand-sep { color: var(--muted); margin: 0 6px; font-weight: 400; }
-.brand-product { color: var(--ink); }
+.brand:hover { text-decoration: none; }
+.brand-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+.brand-product {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--berkeley-blue);
+  padding-left: 18px;
+  border-left: 1px solid var(--line);
+  letter-spacing: -0.01em;
+}
 .site-nav { display: flex; gap: 28px; }
 .site-nav a {
   color: var(--ink-2);
@@ -147,7 +159,6 @@ a:hover { text-decoration: underline; }
 .muted { color: var(--muted); }
 
 @media (max-width: 768px) {
-  .header-inner { height: auto; padding: 16px 0; flex-direction: column; gap: 12px; }
   .hero h1 { font-size: 36px; }
   .picker-grid { grid-template-columns: 1fr; }
 }
@@ -200,19 +211,12 @@ a:hover { text-decoration: underline; }
   object-position: center center;
 }
 
-/* RDI logo in header */
-.brand-logo {
-  height: 32px;
-  width: auto;
-  display: block;
-}
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+/* RDI logo in header (sizing in main .brand-logo block above) */
 
 @media (max-width: 768px) {
   .hero-banner img { max-height: 180px; }
-  .brand-logo { height: 24px; }
+  .brand-logo { height: 36px; }
+  .brand-product { font-size: 16px; padding-left: 12px; }
+  .brand { gap: 12px; }
+  .header-inner { height: auto; padding: 12px 0; }
 }
