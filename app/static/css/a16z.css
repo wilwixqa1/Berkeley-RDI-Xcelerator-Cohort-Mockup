@@ -72,13 +72,13 @@
 /* Image logos: free aspect ratio, max height instead of forced square */
 .a16z-logo-img {
   width: auto;
-  height: 64px;
-  max-width: 240px;
+  height: 56px;
+  max-width: 320px;
   background: transparent;
   border: none;
   border-radius: 0;
   padding: 0;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   justify-content: flex-start;
 }
 .a16z-logo-img img {

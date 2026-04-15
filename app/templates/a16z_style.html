@@ -21,15 +21,16 @@
         <div class="a16z-card-inner">
           <div class="a16z-card-front">
             {% if company.logo %}
-              <div class="a16z-logo a16z-logo-img"><img src="{{ company.logo }}" alt="{{ company.name }} logo"></div>
+              <div class="a16z-logo a16z-logo-img"><img src="{{ company.logo }}" alt="{{ company.name }}"></div>
             {% elif company.icon %}
-              <div class="a16z-logo a16z-logo-img"><img src="{{ company.icon }}" alt="{{ company.name }} logo"></div>
+              <div class="a16z-logo a16z-logo-img"><img src="{{ company.icon }}" alt="{{ company.name }}"></div>
+              <h3>{{ company.name }}</h3>
             {% else %}
               <div class="a16z-logo" style="background: linear-gradient(135deg, hsl({{ loop.index * 47 % 360 }}, 55%, 50%), hsl({{ (loop.index * 47 + 80) % 360 }}, 55%, 35%));">
                 {{ company.name[0] }}
               </div>
+              <h3>{{ company.name }}</h3>
             {% endif %}
-            <h3>{{ company.name }}</h3>
             <p class="a16z-tagline">{{ company.tagline }}</p>
             <div class="a16z-cats">
               {% for cat in company.categories %}<span class="a16z-cat">{{ cat }}</span>{% endfor %}
