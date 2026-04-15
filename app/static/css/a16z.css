@@ -57,27 +57,36 @@
 }
 
 .a16z-logo {
-  width: 64px;
-  height: 64px;
-  border-radius: 14px;
+  width: 96px;
+  height: 96px;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 44px;
   margin-bottom: 24px;
   overflow: hidden;
 }
+/* Image logos: free aspect ratio, max height instead of forced square */
 .a16z-logo-img {
-  background: white;
-  border: 1px solid var(--line);
-  padding: 6px;
+  width: auto;
+  height: 64px;
+  max-width: 240px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 28px;
+  justify-content: flex-start;
 }
 .a16z-logo-img img {
-  width: 100%;
+  width: auto;
   height: 100%;
+  max-width: 100%;
   object-fit: contain;
+  display: block;
 }
 .a16z-card-front h3 {
   font-size: 28px;

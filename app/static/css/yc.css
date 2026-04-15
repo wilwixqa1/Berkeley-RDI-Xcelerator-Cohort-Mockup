@@ -80,22 +80,22 @@
   margin-bottom: 14px;
 }
 .yc-logo {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 28px;
   flex-shrink: 0;
   overflow: hidden;
 }
 .yc-logo-img {
   background: white;
   border: 1px solid var(--line);
-  padding: 4px;
+  padding: 6px;
 }
 .yc-logo-img img {
   width: 100%;
