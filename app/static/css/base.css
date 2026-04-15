@@ -184,3 +184,35 @@ a:hover { text-decoration: underline; }
   display: block;
   margin: 0 auto;
 }
+
+/* Hero banner (full-bleed image) */
+.hero-banner {
+  width: 100%;
+  line-height: 0;
+  background: #1a2332;
+}
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 360px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* RDI logo in header */
+.brand-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .hero-banner img { max-height: 180px; }
+  .brand-logo { height: 24px; }
+}

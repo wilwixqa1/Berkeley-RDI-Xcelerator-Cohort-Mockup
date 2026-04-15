@@ -2,9 +2,13 @@
 {% block title %}Cohort — Berkeley Xcelerator{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/yc.css">{% endblock %}
 {% block content %}
+<section class="hero-banner">
+  <img src="/static/img/hero-banner.png" alt="Berkeley Xcelerator — The Launchpad for Next-Generation AI & Agentic AI Startups" />
+</section>
+
 <section class="yc-hero">
   <div class="container">
-    <p class="eyebrow">Berkeley Xcelerator · {{ cohort.cohort_name }}</p>
+    <p class="eyebrow">{{ cohort.cohort_name }}</p>
     <h1>The Companies</h1>
     <p class="lede">{{ cohort.companies|length }} startups building the next wave of AI and Agentic AI infrastructure, applications, and reliability tooling.</p>
 
