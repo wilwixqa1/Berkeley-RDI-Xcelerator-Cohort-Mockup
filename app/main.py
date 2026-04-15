@@ -15,7 +15,10 @@ templates = Jinja2Templates(directory=str(BASE_DIR / "app" / "templates"))
 
 def load_cohort():
     with open(DATA_PATH) as f:
-        return json.load(f)
+        data = json.load(f)
+    # Only show featured companies (others are still being collected)
+    data["companies"] = [c for c in data["companies"] if c.get("featured")]
+    return data
 
 
 @app.get("/", response_class=HTMLResponse)

@@ -16,7 +16,11 @@
       "team_size": "1",
       "stage": "Pre-revenue",
       "funding": "Bootstrapped",
-      "categories": ["Infrastructure", "Developer Tools", "Open Source"],
+      "categories": [
+        "Infrastructure",
+        "Developer Tools",
+        "Open Source"
+      ],
       "founders": [
         {
           "name": "Tejas Chopra",
@@ -25,7 +29,8 @@
           "linkedin": "https://linkedin.com/in/chopratejas",
           "headshot": "/static/img/founders/tejas-chopra.jpg"
         }
-      ]
+      ],
+      "featured": true
     },
     {
       "slug": "armoriq",
@@ -40,11 +45,26 @@
       "team_size": "11-20",
       "stage": "Revenue-generating",
       "funding": "$200K bootstrapped, $100K MRR",
-      "categories": ["AI Security", "Governance", "Enterprise"],
+      "categories": [
+        "AI Security",
+        "Governance",
+        "Enterprise"
+      ],
       "founders": [
-        {"name": "Ram Mohan", "title": "Co-Founder & CEO", "bio": "3x founder with 2 exits. Previously at Google, Amazon, Cisco. Prior company acquired by Sauce Labs for $40M.", "linkedin": ""},
-        {"name": "CTO", "title": "Co-Founder & CTO", "bio": "PhD from Georgia Tech. 14+ years in edge computing and AI security.", "linkedin": ""}
-      ]
+        {
+          "name": "Ram Mohan",
+          "title": "Co-Founder & CEO",
+          "bio": "3x founder with 2 exits. Previously at Google, Amazon, Cisco. Prior company acquired by Sauce Labs for $40M.",
+          "linkedin": ""
+        },
+        {
+          "name": "CTO",
+          "title": "Co-Founder & CTO",
+          "bio": "PhD from Georgia Tech. 14+ years in edge computing and AI security.",
+          "linkedin": ""
+        }
+      ],
+      "featured": false
     },
     {
       "slug": "agntid",
@@ -61,7 +81,11 @@
       "team_size": "2 FTE",
       "stage": "Pre-revenue, 7 enterprise pilots",
       "funding": "$500K from strategic angels",
-      "categories": ["AI Security", "Identity", "Enterprise"],
+      "categories": [
+        "AI Security",
+        "Identity",
+        "Enterprise"
+      ],
       "founders": [
         {
           "name": "Sundar Krish",
@@ -77,7 +101,8 @@
           "linkedin": "https://www.linkedin.com/in/ramanuj-p-84810024/",
           "headshot": ""
         }
-      ]
+      ],
+      "featured": true
     },
     {
       "slug": "cognee",
@@ -93,7 +118,11 @@
       "team_size": "15",
       "stage": "Revenue-generating",
       "funding": "$9.3M seed (Pebblebed, 42CAP, Tiny VC)",
-      "categories": ["Infrastructure", "Memory", "Open Source"],
+      "categories": [
+        "Infrastructure",
+        "Memory",
+        "Open Source"
+      ],
       "founders": [
         {
           "name": "Vasilije Markovic",
@@ -102,7 +131,8 @@
           "linkedin": "https://www.linkedin.com/in/vasilije-markovic-13302471/",
           "headshot": "/static/img/founders/vasilije-markovic.jpg"
         }
-      ]
+      ],
+      "featured": true
     },
     {
       "slug": "nimblemind",
@@ -117,11 +147,26 @@
       "team_size": "3-5",
       "stage": "Revenue-generating",
       "funding": "$2.5M (Techstars, Great Oaks VC, Bread & Butter, Victorum, Stone Mountain)",
-      "categories": ["Healthcare", "Data Infrastructure", "Vertical AI"],
+      "categories": [
+        "Healthcare",
+        "Data Infrastructure",
+        "Vertical AI"
+      ],
       "founders": [
-        {"name": "Pi Zonooz", "title": "CEO", "bio": "Previously launched 40+ products at AWS and Stripe. Kellogg MBA. Founding/technical engineer at three prior startups.", "linkedin": ""},
-        {"name": "Navin Kumar", "title": "Chief AI Officer", "bio": "Yale PhD in ML/NLP. Former Head of Data Science at NYC Health + Hospitals.", "linkedin": ""}
-      ]
+        {
+          "name": "Pi Zonooz",
+          "title": "CEO",
+          "bio": "Previously launched 40+ products at AWS and Stripe. Kellogg MBA. Founding/technical engineer at three prior startups.",
+          "linkedin": ""
+        },
+        {
+          "name": "Navin Kumar",
+          "title": "Chief AI Officer",
+          "bio": "Yale PhD in ML/NLP. Former Head of Data Science at NYC Health + Hospitals.",
+          "linkedin": ""
+        }
+      ],
+      "featured": false
     },
     {
       "slug": "founding-dev",
@@ -136,10 +181,20 @@
       "team_size": "3-5",
       "stage": "Profitable, $30.2K MRR",
       "funding": "$200K (Antler), raising $2-4M",
-      "categories": ["Developer Tools", "SaaS", "Vertical AI"],
+      "categories": [
+        "Developer Tools",
+        "SaaS",
+        "Vertical AI"
+      ],
       "founders": [
-        {"name": "Talha", "title": "Founder", "bio": "Second-time entrepreneur. 13+ years consulting for Scale AI, GitLab, Northwestern Mutual across engineering, product, and sales.", "linkedin": ""}
-      ]
+        {
+          "name": "Talha",
+          "title": "Founder",
+          "bio": "Second-time entrepreneur. 13+ years consulting for Scale AI, GitLab, Northwestern Mutual across engineering, product, and sales.",
+          "linkedin": ""
+        }
+      ],
+      "featured": false
     },
     {
       "slug": "weereel",
@@ -154,11 +209,26 @@
       "team_size": "2-5",
       "stage": "Beta, 30+ users",
       "funding": "Bootstrapped",
-      "categories": ["Consumer", "Social", "Vertical AI"],
+      "categories": [
+        "Consumer",
+        "Social",
+        "Vertical AI"
+      ],
       "founders": [
-        {"name": "CEO", "title": "Co-Founder & CEO", "bio": "Actor and filmmaker.", "linkedin": ""},
-        {"name": "CTO", "title": "Co-Founder & CTO", "bio": "Former Palantir software engineer.", "linkedin": ""}
-      ]
+        {
+          "name": "CEO",
+          "title": "Co-Founder & CEO",
+          "bio": "Actor and filmmaker.",
+          "linkedin": ""
+        },
+        {
+          "name": "CTO",
+          "title": "Co-Founder & CTO",
+          "bio": "Former Palantir software engineer.",
+          "linkedin": ""
+        }
+      ],
+      "featured": false
     },
     {
       "slug": "ncompass",
@@ -173,11 +243,26 @@
       "team_size": "3-5",
       "stage": "Beta with initial users",
       "funding": "$1.7M (YC, Amino Capital)",
-      "categories": ["Developer Tools", "Infrastructure", "GPU"],
+      "categories": [
+        "Developer Tools",
+        "Infrastructure",
+        "GPU"
+      ],
       "founders": [
-        {"name": "Aditya Rajagopal", "title": "Co-Founder & CEO", "bio": "PhD from Imperial College London on accelerating CNNs on FPGAs and embedded GPUs. Previously on Qualcomm AI compilers team for LLMs.", "linkedin": "https://www.linkedin.com/in/adityarajagopal/"},
-        {"name": "Diederik Vink", "title": "Co-Founder & CTO", "bio": "PhD from Imperial College London on accelerated CNN training architectures on FPGAs.", "linkedin": "https://www.linkedin.com/in/diederik-vink/"}
-      ]
+        {
+          "name": "Aditya Rajagopal",
+          "title": "Co-Founder & CEO",
+          "bio": "PhD from Imperial College London on accelerating CNNs on FPGAs and embedded GPUs. Previously on Qualcomm AI compilers team for LLMs.",
+          "linkedin": "https://www.linkedin.com/in/adityarajagopal/"
+        },
+        {
+          "name": "Diederik Vink",
+          "title": "Co-Founder & CTO",
+          "bio": "PhD from Imperial College London on accelerated CNN training architectures on FPGAs.",
+          "linkedin": "https://www.linkedin.com/in/diederik-vink/"
+        }
+      ],
+      "featured": false
     },
     {
       "slug": "relai",
@@ -192,12 +277,32 @@
       "team_size": "6-10",
       "stage": "Beta with initial users",
       "funding": "$1.5M (TEDCO, Non Sibi Ventures, NSF SBIR)",
-      "categories": ["AI Reliability", "Evaluation", "Enterprise"],
+      "categories": [
+        "AI Reliability",
+        "Evaluation",
+        "Enterprise"
+      ],
       "founders": [
-        {"name": "Soheil Feizi", "title": "Founder & CEO", "bio": "Associate Professor (on leave) UMD CS. PhD MIT, postdoc Stanford. 2024 PECASE awardee. Testified before U.S. House Bipartisan Task Force on AI.", "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/"},
-        {"name": "Wenxiao Wang", "title": "Co-Founder & Head of AI", "bio": "PhD UMD, BS Tsinghua Yao Class. Publications at ICML, ICLR, NeurIPS. Previously at Sony AI and ByteDance.", "linkedin": ""},
-        {"name": "Priyatham Kattakinda", "title": "Co-Founder & Technical Lead", "bio": "PhD UMD focused on reliability for language and vision models. NSF I-Corps national.", "linkedin": ""}
-      ]
+        {
+          "name": "Soheil Feizi",
+          "title": "Founder & CEO",
+          "bio": "Associate Professor (on leave) UMD CS. PhD MIT, postdoc Stanford. 2024 PECASE awardee. Testified before U.S. House Bipartisan Task Force on AI.",
+          "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/"
+        },
+        {
+          "name": "Wenxiao Wang",
+          "title": "Co-Founder & Head of AI",
+          "bio": "PhD UMD, BS Tsinghua Yao Class. Publications at ICML, ICLR, NeurIPS. Previously at Sony AI and ByteDance.",
+          "linkedin": ""
+        },
+        {
+          "name": "Priyatham Kattakinda",
+          "title": "Co-Founder & Technical Lead",
+          "bio": "PhD UMD focused on reliability for language and vision models. NSF I-Corps national.",
+          "linkedin": ""
+        }
+      ],
+      "featured": false
     },
     {
       "slug": "qbg",
@@ -212,11 +317,26 @@
       "team_size": "2-5",
       "stage": "Pre-revenue",
       "funding": "Bootstrapped, $20K milestone pending",
-      "categories": ["Consulting", "Vertical AI", "Enterprise"],
+      "categories": [
+        "Consulting",
+        "Vertical AI",
+        "Enterprise"
+      ],
       "founders": [
-        {"name": "Co-Founder", "title": "Co-Founder", "bio": "Harvard CS/Stats senior, graduating May 2026.", "linkedin": ""},
-        {"name": "Co-Founder", "title": "Co-Founder", "bio": "Harvard CS/Stats senior, graduating May 2026.", "linkedin": ""}
-      ]
+        {
+          "name": "Co-Founder",
+          "title": "Co-Founder",
+          "bio": "Harvard CS/Stats senior, graduating May 2026.",
+          "linkedin": ""
+        },
+        {
+          "name": "Co-Founder",
+          "title": "Co-Founder",
+          "bio": "Harvard CS/Stats senior, graduating May 2026.",
+          "linkedin": ""
+        }
+      ],
+      "featured": false
     }
   ]
 }

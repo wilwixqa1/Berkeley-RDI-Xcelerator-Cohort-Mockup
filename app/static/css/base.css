@@ -151,3 +151,36 @@ a:hover { text-decoration: underline; }
   .hero h1 { font-size: 36px; }
   .picker-grid { grid-template-columns: 1fr; }
 }
+
+/* Partners section */
+.partners-section {
+  background: var(--bg-soft);
+  padding: 72px 0;
+  border-top: 1px solid var(--line);
+}
+.partners-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--berkeley-blue);
+  text-align: center;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.partners-sub {
+  text-align: center;
+  color: var(--ink-2);
+  font-size: 15px;
+  max-width: 640px;
+  margin: 0 auto 40px;
+}
+.partners-flyer {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.partners-flyer img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
