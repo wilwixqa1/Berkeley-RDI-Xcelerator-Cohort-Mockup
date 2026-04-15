@@ -182,6 +182,7 @@
   height: 36px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   flex-shrink: 0;
 }
 .founder-headshot-placeholder {
