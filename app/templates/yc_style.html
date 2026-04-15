@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block title %}Cohort — Berkeley Xcelerator{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/yc.css">{% endblock %}
+{% block content %}
+<section class="yc-hero">
+  <div class="container">
+    <p class="eyebrow">Berkeley Xcelerator · {{ cohort.cohort_name }}</p>
+    <h1>The Companies</h1>
+    <p class="lede">{{ cohort.companies|length }} startups building the next wave of AI and Agentic AI infrastructure, applications, and reliability tooling.</p>
+
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search companies, founders, technologies…" />
+      <div class="chip-row" id="cat-chips">
+        <button class="chip active" data-cat="">All</button>
+        {% for cat in categories %}
+          <button class="chip" data-cat="{{ cat }}">{{ cat }}</button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="yc-grid-section">
+  <div class="container">
+    <div class="yc-grid" id="grid">
+      {% for company in cohort.companies %}
+      <article class="yc-card"
+               data-name="{{ company.name|lower }}"
+               data-tagline="{{ company.tagline|lower }}"
+               data-categories="{{ company.categories|join(',')|lower }}"
+               data-founders="{% for f in company.founders %}{{ f.name|lower }} {% endfor %}">
+        <div class="yc-card-header">
+          <div class="yc-logo" style="background: linear-gradient(135deg, hsl({{ loop.index * 37 % 360 }}, 60%, 55%), hsl({{ (loop.index * 37 + 60) % 360 }}, 60%, 45%));">
+            {{ company.name[0] }}
+          </div>
+          <div>
+            <h3>{{ company.name }}</h3>
+            <p class="yc-card-hq">{{ company.hq }}</p>
+          </div>
+        </div>
+        <p class="yc-card-tagline">{{ company.tagline }}</p>
+        <div class="yc-card-meta">
+          {% for cat in company.categories %}
+            <span class="meta-pill">{{ cat }}</span>
+          {% endfor %}
+        </div>
+        <details class="yc-card-details">
+          <summary>More info</summary>
+          <p>{{ company.description }}</p>
+          <div class="founder-list">
+            <strong>Founders</strong>
+            {% for f in company.founders %}
+              <div class="founder-row">
+                <span class="founder-name">{{ f.name }}</span>
+                <span class="founder-title">{{ f.title }}</span>
+                <span class="founder-bio">{{ f.bio }}</span>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="company-meta-grid">
+            <div><span class="muted">Stage</span> {{ company.stage }}</div>
+            <div><span class="muted">Funding</span> {{ company.funding }}</div>
+            <div><span class="muted">Team</span> {{ company.team_size }}</div>
+            <div><span class="muted">Founded</span> {{ company.year_founded }}</div>
+          </div>
+          {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="company-link">Visit website ↗</a>{% endif %}
+        </details>
+      </article>
+      {% endfor %}
+    </div>
+    <p id="empty-state" class="empty-state" hidden>No companies match those filters.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const search = document.getElementById('search');
+  const chips = document.querySelectorAll('.chip');
+  const cards = document.querySelectorAll('.yc-card');
+  const empty = document.getElementById('empty-state');
+  let activeCat = '';
+
+  function filter() {
+    const q = search.value.toLowerCase().trim();
+    let visible = 0;
+    cards.forEach(card => {
+      const matchesSearch = !q ||
+        card.dataset.name.includes(q) ||
+        card.dataset.tagline.includes(q) ||
+        card.dataset.founders.includes(q);
+      const matchesCat = !activeCat || card.dataset.categories.includes(activeCat.toLowerCase());
+      const show = matchesSearch && matchesCat;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    empty.hidden = visible > 0;
+  }
+
+  search.addEventListener('input', filter);
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeCat = chip.dataset.cat;
+      filter();
+    });
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Portfolio — Berkeley Xcelerator{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/a16z.css">{% endblock %}
+{% block content %}
+<section class="a16z-hero">
+  <div class="container">
+    <p class="eyebrow">{{ cohort.cohort_name }}</p>
+    <h1>Building the future of intelligent systems</h1>
+    <p class="lede">A curated cohort of {{ cohort.companies|length }} startups working at the frontier of AI and Agentic AI — from infrastructure to reliability to vertical applications.</p>
+  </div>
+</section>
+
+<section class="a16z-grid-section">
+  <div class="container">
+    <div class="a16z-grid">
+      {% for company in cohort.companies %}
+      <article class="a16z-card">
+        <div class="a16z-card-inner">
+          <div class="a16z-card-front">
+            <div class="a16z-logo" style="background: linear-gradient(135deg, hsl({{ loop.index * 47 % 360 }}, 55%, 50%), hsl({{ (loop.index * 47 + 80) % 360 }}, 55%, 35%));">
+              {{ company.name[0] }}
+            </div>
+            <h3>{{ company.name }}</h3>
+            <p class="a16z-tagline">{{ company.tagline }}</p>
+            <div class="a16z-cats">
+              {% for cat in company.categories %}<span class="a16z-cat">{{ cat }}</span>{% endfor %}
+            </div>
+            <p class="a16z-hover-hint">Hover for founders →</p>
+          </div>
+          <div class="a16z-card-back">
+            <h4>{{ company.name }}</h4>
+            <p class="a16z-desc">{{ company.description }}</p>
+            <div class="a16z-founders">
+              {% for f in company.founders %}
+                <div class="a16z-founder">
+                  <div class="a16z-founder-name">{{ f.name }} <span class="a16z-founder-title">— {{ f.title }}</span></div>
+                  <p class="a16z-founder-bio">{{ f.bio }}</p>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="a16z-meta">
+              <span>{{ company.stage }}</span>
+              <span>{{ company.funding }}</span>
+              <span>{{ company.hq }}</span>
+            </div>
+            {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="a16z-link">{{ company.website|replace('https://', '')|replace('http://', '') }} ↗</a>{% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

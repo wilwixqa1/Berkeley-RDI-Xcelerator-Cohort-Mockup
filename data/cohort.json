@@ -1,0 +1,193 @@
+{
+  "cohort_name": "Spring 2026 Cohort",
+  "companies": [
+    {
+      "slug": "headroom-labs",
+      "name": "Headroom Labs",
+      "tagline": "Open-source context compression and persistent memory for AI agents.",
+      "description": "Open-source infrastructure that sits in the agent request and response loop, compressing multi-modal context (text, code, images, structured data) and providing persistent memory across sessions.",
+      "website": "https://github.com/chopratejas/headroom",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "United States",
+      "year_founded": 2024,
+      "team_size": "1",
+      "stage": "Pre-revenue",
+      "funding": "Bootstrapped",
+      "categories": ["Infrastructure", "Developer Tools", "Open Source"],
+      "founders": [
+        {"name": "Tejas Chopra", "title": "Founder", "bio": "ML/AI Infra Engineering Leader at Netflix. 2x TEDx speaker, IEEE Young Scientist Awardee.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "armoriq",
+      "name": "ArmorIQ AI",
+      "tagline": "Intent assurance and governance layer between AI agent reasoning and execution.",
+      "description": "Extracts agent intent into a cryptographically verifiable artifact, grants purpose-bound access controls, monitors for drift, and maintains immutable audit trails for AI agents in regulated enterprises.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "San Francisco, CA / Atlanta, GA",
+      "year_founded": 2023,
+      "team_size": "11-20",
+      "stage": "Revenue-generating",
+      "funding": "$200K bootstrapped, $100K MRR",
+      "categories": ["AI Security", "Governance", "Enterprise"],
+      "founders": [
+        {"name": "Ram Mohan", "title": "Co-Founder & CEO", "bio": "3x founder with 2 exits. Previously at Google, Amazon, Cisco. Prior company acquired by Sauce Labs for $40M.", "linkedin": ""},
+        {"name": "CTO", "title": "Co-Founder & CTO", "bio": "PhD from Georgia Tech. 14+ years in edge computing and AI security.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "agntid",
+      "name": "AgntID",
+      "tagline": "Runtime enforcement layer for AI agent access control with scoped, ephemeral credentials.",
+      "description": "Intercepts agent tool calls, evaluates policy and intent, derives scoped credentials, and executes. Integrates with existing IAM and MCP ecosystems without requiring agent redesign.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "United States",
+      "year_founded": 2024,
+      "team_size": "3-5",
+      "stage": "Pre-revenue, 7 enterprise pilots",
+      "funding": "$500K from strategic angels",
+      "categories": ["AI Security", "Identity", "Enterprise"],
+      "founders": [
+        {"name": "Sundar Krish", "title": "Co-Founder & CEO", "bio": "Serial entrepreneur. Founded sken.ai (acquired by Fortinet) and waygum.io (acquired).", "linkedin": ""},
+        {"name": "Ramanuj P.", "title": "Co-Founder & CTO", "bio": "25+ years in security platforms. Previously at Fortinet.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "cognee",
+      "name": "Cognee",
+      "tagline": "Open-source AI memory layer using vectors and knowledge graphs.",
+      "description": "Structures data into vectors and knowledge graphs, enabling persistent context and multi-agent coordination for AI applications.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "Berlin, Germany",
+      "year_founded": 2023,
+      "team_size": "11-20",
+      "stage": "Revenue-generating",
+      "funding": "$9.3M seed (Pebblebed, 42CAP, Tiny VC)",
+      "categories": ["Infrastructure", "Memory", "Open Source"],
+      "founders": [
+        {"name": "Vasilije Markovic", "title": "Founder", "bio": "Previously at Zalando, Taxfix, Omio.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "nimblemind",
+      "name": "Nimblemind.ai",
+      "tagline": "AI-native data infrastructure for healthcare with specialty-specific agents.",
+      "description": "Specialty-specific AI agents automate cleaning, labeling, and harmonization of multimodal clinical data (EHR, imaging, genomics, wearables, patient-reported outcomes), reducing data prep timelines from months to days.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "Chicago, IL",
+      "year_founded": 2023,
+      "team_size": "3-5",
+      "stage": "Revenue-generating",
+      "funding": "$2.5M (Techstars, Great Oaks VC, Bread & Butter, Victorum, Stone Mountain)",
+      "categories": ["Healthcare", "Data Infrastructure", "Vertical AI"],
+      "founders": [
+        {"name": "Pi Zonooz", "title": "CEO", "bio": "Previously launched 40+ products at AWS and Stripe. Kellogg MBA. Founding/technical engineer at three prior startups.", "linkedin": ""},
+        {"name": "Navin Kumar", "title": "Chief AI Officer", "bio": "Yale PhD in ML/NLP. Former Head of Data Science at NYC Health + Hospitals.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "founding-dev",
+      "name": "Founding Dev",
+      "tagline": "Agentic AI editor that builds and manages custom SaaS replacements.",
+      "description": "Lets businesses build complex SaaS replacements (BambooHR, DocuSign, QuickBooks, etc.) from templates or scratch, then deploys and manages them through the same platform.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "Bay Area, CA",
+      "year_founded": 2024,
+      "team_size": "3-5",
+      "stage": "Profitable, $30.2K MRR",
+      "funding": "$200K (Antler), raising $2-4M",
+      "categories": ["Developer Tools", "SaaS", "Vertical AI"],
+      "founders": [
+        {"name": "Talha", "title": "Founder", "bio": "Second-time entrepreneur. 13+ years consulting for Scale AI, GitLab, Northwestern Mutual across engineering, product, and sales.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "weereel",
+      "name": "WeeReel",
+      "tagline": "Social networking and job platform for entertainment industry creatives.",
+      "description": "Social networking and job platform for actors, directors, producers, crew, and comedians. Plans for LLM-based smart matching and project idea generation.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "New York, NY",
+      "year_founded": 2026,
+      "team_size": "2-5",
+      "stage": "Beta, 30+ users",
+      "funding": "Bootstrapped",
+      "categories": ["Consumer", "Social", "Vertical AI"],
+      "founders": [
+        {"name": "CEO", "title": "Co-Founder & CEO", "bio": "Actor and filmmaker.", "linkedin": ""},
+        {"name": "CTO", "title": "Co-Founder & CTO", "bio": "Former Palantir software engineer.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "ncompass",
+      "name": "nCompass",
+      "tagline": "Agentic developer tool for GPU systems and kernel performance optimization.",
+      "description": "Multi-agent system that gives frontier models access to runtime profiling traces (NVIDIA nsight-systems, nsight-compute), curated domain knowledge, and the ability to run profilers themselves to root-cause performance bottlenecks.",
+      "website": "https://ncompass.tech",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "New York, NY",
+      "year_founded": 2023,
+      "team_size": "3-5",
+      "stage": "Beta with initial users",
+      "funding": "$1.7M (YC, Amino Capital)",
+      "categories": ["Developer Tools", "Infrastructure", "GPU"],
+      "founders": [
+        {"name": "Aditya Rajagopal", "title": "Co-Founder & CEO", "bio": "PhD from Imperial College London on accelerating CNNs on FPGAs and embedded GPUs. Previously on Qualcomm AI compilers team for LLMs.", "linkedin": "https://www.linkedin.com/in/adityarajagopal/"},
+        {"name": "Diederik Vink", "title": "Co-Founder & CTO", "bio": "PhD from Imperial College London on accelerated CNN training architectures on FPGAs.", "linkedin": "https://www.linkedin.com/in/diederik-vink/"}
+      ]
+    },
+    {
+      "slug": "relai",
+      "name": "RELAI",
+      "tagline": "Reliable AI agent development lifecycle: simulation, evaluation, and optimization.",
+      "description": "Connects to existing agents via SDK, simulates them across diverse synthetic and real-world scenarios, evaluates with Critico (LLM-as-judge, code-based, expert evaluators), and uses Maestro to holistically optimize both agent configuration and graph structure.",
+      "website": "https://relai.ai",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "Bethesda, MD",
+      "year_founded": 2024,
+      "team_size": "6-10",
+      "stage": "Beta with initial users",
+      "funding": "$1.5M (TEDCO, Non Sibi Ventures, NSF SBIR)",
+      "categories": ["AI Reliability", "Evaluation", "Enterprise"],
+      "founders": [
+        {"name": "Soheil Feizi", "title": "Founder & CEO", "bio": "Associate Professor (on leave) UMD CS. PhD MIT, postdoc Stanford. 2024 PECASE awardee. Testified before U.S. House Bipartisan Task Force on AI.", "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/"},
+        {"name": "Wenxiao Wang", "title": "Co-Founder & Head of AI", "bio": "PhD UMD, BS Tsinghua Yao Class. Publications at ICML, ICLR, NeurIPS. Previously at Sony AI and ByteDance.", "linkedin": ""},
+        {"name": "Priyatham Kattakinda", "title": "Co-Founder & Technical Lead", "bio": "PhD UMD focused on reliability for language and vision models. NSF I-Corps national.", "linkedin": ""}
+      ]
+    },
+    {
+      "slug": "qbg",
+      "name": "QBG",
+      "tagline": "AI deployment service for mid-market businesses.",
+      "description": "AI customer service and BI platform for mid-market businesses. Uses AI agents to automate consulting work, enabling enterprise-grade deployments at mid-market pricing.",
+      "website": "",
+      "linkedin": "",
+      "twitter": "",
+      "hq": "Cambridge, MA",
+      "year_founded": 2024,
+      "team_size": "2-5",
+      "stage": "Pre-revenue",
+      "funding": "Bootstrapped, $20K milestone pending",
+      "categories": ["Consulting", "Vertical AI", "Enterprise"],
+      "founders": [
+        {"name": "Co-Founder", "title": "Co-Founder", "bio": "Harvard CS/Stats senior, graduating May 2026.", "linkedin": ""},
+        {"name": "Co-Founder", "title": "Co-Founder", "bio": "Harvard CS/Stats senior, graduating May 2026.", "linkedin": ""}
+      ]
+    }
+  ]
+}

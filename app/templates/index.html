@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Mockup Picker — Berkeley Xcelerator Cohort{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Internal Mockup</p>
+    <h1>Cohort Page Concepts</h1>
+    <p class="lede">Two layout directions for the Berkeley Xcelerator cohort page. Same data, different design philosophies. Pick one to ship.</p>
+
+    <div class="picker-grid">
+      <a href="/yc-style" class="picker-card">
+        <div class="picker-tag">Option A</div>
+        <h2>YC Directory Style</h2>
+        <p>Dense, filterable grid. Logo cards with one-line taglines. Built for browsing dozens of companies. Filters by category, stage, and funding.</p>
+        <p class="picker-meta">Best for: discovery, scale, sortability</p>
+        <span class="picker-cta">View mockup →</span>
+      </a>
+
+      <a href="/a16z-style" class="picker-card">
+        <div class="picker-tag">Option B</div>
+        <h2>a16z Portfolio Style</h2>
+        <p>Editorial, premium feel. Larger cards with more breathing room. Each company gets a richer story moment. Hover for founder details.</p>
+        <p class="picker-meta">Best for: prestige, storytelling, smaller cohorts</p>
+        <span class="picker-cta">View mockup →</span>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}
