@@ -1,0 +1,7 @@
+echo "# Berkeley-RDI-Xcelerator-Cohort-Mockup" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wilwixqa1/Berkeley-RDI-Xcelerator-Cohort-Mockup.git
+git push -u origin main
