@@ -81,20 +81,27 @@
     },
     {
       "slug": "cognee",
-      "name": "Cognee",
-      "tagline": "Open-source AI memory layer using vectors and knowledge graphs.",
-      "description": "Structures data into vectors and knowledge graphs, enabling persistent context and multi-agent coordination for AI applications.",
-      "website": "",
-      "linkedin": "",
+      "name": "cognee",
+      "tagline": "Ontology-grounded context engine for your agents, enabling them to reason and improve over time.",
+      "description": "Open-source AI memory layer using vectors and knowledge graphs. Structures data into vectors and knowledge graphs, enabling persistent context and multi-agent coordination for AI applications.",
+      "website": "https://www.cognee.ai",
+      "linkedin": "https://www.linkedin.com/company/103889898",
       "twitter": "",
+      "logo": "/static/img/companies/cognee/logo-full.svg",
       "hq": "Berlin, Germany",
-      "year_founded": 2023,
-      "team_size": "11-20",
+      "year_founded": 2024,
+      "team_size": "15",
       "stage": "Revenue-generating",
       "funding": "$9.3M seed (Pebblebed, 42CAP, Tiny VC)",
       "categories": ["Infrastructure", "Memory", "Open Source"],
       "founders": [
-        {"name": "Vasilije Markovic", "title": "Founder", "bio": "Previously at Zalando, Taxfix, Omio.", "linkedin": ""}
+        {
+          "name": "Vasilije Markovic",
+          "title": "Founder",
+          "bio": "10+ years of experience in big data and data engineering, with a background in cognitive sciences. Has been developing cognitive approaches to memory for years. Previously at Zalando, Taxfix, Omio.",
+          "linkedin": "https://www.linkedin.com/in/vasilije-markovic-13302471/",
+          "headshot": "/static/img/founders/vasilije-markovic.jpg"
+        }
       ]
     },
     {
