@@ -41,20 +41,34 @@
     {
       "slug": "agntid",
       "name": "AgntID",
-      "tagline": "Runtime enforcement layer for AI agent access control with scoped, ephemeral credentials.",
-      "description": "Intercepts agent tool calls, evaluates policy and intent, derives scoped credentials, and executes. Integrates with existing IAM and MCP ecosystems without requiring agent redesign.",
-      "website": "",
-      "linkedin": "",
+      "tagline": "Access Control Enforcement for AI Agents.",
+      "description": "Runtime enforcement layer for AI agent access control with scoped, ephemeral credentials per tool invocation. Intercepts agent tool calls, evaluates policy and intent, derives scoped credentials, and executes. Integrates with existing IAM and MCP ecosystems without requiring agent redesign.",
+      "website": "https://agntid.ai/",
+      "linkedin": "https://www.linkedin.com/company/agntid-ai/",
       "twitter": "",
-      "hq": "United States",
-      "year_founded": 2024,
-      "team_size": "3-5",
+      "logo": "/static/img/companies/agntid/logo-full.png",
+      "icon": "/static/img/companies/agntid/icon.png",
+      "hq": "Dublin, CA, USA",
+      "year_founded": 2025,
+      "team_size": "2 FTE",
       "stage": "Pre-revenue, 7 enterprise pilots",
       "funding": "$500K from strategic angels",
       "categories": ["AI Security", "Identity", "Enterprise"],
       "founders": [
-        {"name": "Sundar Krish", "title": "Co-Founder & CEO", "bio": "Serial entrepreneur. Founded sken.ai (acquired by Fortinet) and waygum.io (acquired).", "linkedin": ""},
-        {"name": "Ramanuj P.", "title": "Co-Founder & CTO", "bio": "25+ years in security platforms. Previously at Fortinet.", "linkedin": ""}
+        {
+          "name": "Sundar Krish",
+          "title": "Founder & CEO",
+          "bio": "Serial entrepreneur. Former CEO of Sken.ai (acquired by Fortinet). Previously founded waygum.io (acquired). Product/engineering exec with deep experience in Gen AI, IAM, cybersecurity, and DevSecOps.",
+          "linkedin": "https://www.linkedin.com/in/kgsundar/",
+          "headshot": "/static/img/founders/sundar-krish.jpg"
+        },
+        {
+          "name": "Ramanuj Pandey",
+          "title": "Founding CTO",
+          "bio": "25+ years in security platforms. Security systems architect with deep expertise in identity & runtime authorization, enterprise & cloud infrastructure. Previously at Fortinet and Juniper.",
+          "linkedin": "https://www.linkedin.com/in/ramanuj-p-84810024/",
+          "headshot": ""
+        }
       ]
     },
     {

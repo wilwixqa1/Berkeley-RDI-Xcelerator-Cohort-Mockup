@@ -17,9 +17,15 @@
       <article class="a16z-card">
         <div class="a16z-card-inner">
           <div class="a16z-card-front">
-            <div class="a16z-logo" style="background: linear-gradient(135deg, hsl({{ loop.index * 47 % 360 }}, 55%, 50%), hsl({{ (loop.index * 47 + 80) % 360 }}, 55%, 35%));">
-              {{ company.name[0] }}
-            </div>
+            {% if company.logo %}
+              <div class="a16z-logo a16z-logo-img"><img src="{{ company.logo }}" alt="{{ company.name }} logo"></div>
+            {% elif company.icon %}
+              <div class="a16z-logo a16z-logo-img"><img src="{{ company.icon }}" alt="{{ company.name }} logo"></div>
+            {% else %}
+              <div class="a16z-logo" style="background: linear-gradient(135deg, hsl({{ loop.index * 47 % 360 }}, 55%, 50%), hsl({{ (loop.index * 47 + 80) % 360 }}, 55%, 35%));">
+                {{ company.name[0] }}
+              </div>
+            {% endif %}
             <h3>{{ company.name }}</h3>
             <p class="a16z-tagline">{{ company.tagline }}</p>
             <div class="a16z-cats">
@@ -33,8 +39,15 @@
             <div class="a16z-founders">
               {% for f in company.founders %}
                 <div class="a16z-founder">
-                  <div class="a16z-founder-name">{{ f.name }} <span class="a16z-founder-title">— {{ f.title }}</span></div>
-                  <p class="a16z-founder-bio">{{ f.bio }}</p>
+                  {% if f.headshot %}
+                    <img class="a16z-founder-headshot" src="{{ f.headshot }}" alt="{{ f.name }}">
+                  {% else %}
+                    <div class="a16z-founder-headshot a16z-founder-headshot-placeholder">{{ f.name[0] }}</div>
+                  {% endif %}
+                  <div class="a16z-founder-info">
+                    <div class="a16z-founder-name">{{ f.name }} <span class="a16z-founder-title">— {{ f.title }}</span> {% if f.linkedin %}<a href="{{ f.linkedin }}" target="_blank" rel="noopener" class="a16z-founder-linkedin">in</a>{% endif %}</div>
+                    <p class="a16z-founder-bio">{{ f.bio }}</p>
+                  </div>
                 </div>
               {% endfor %}
             </div>
@@ -43,7 +56,10 @@
               <span>{{ company.funding }}</span>
               <span>{{ company.hq }}</span>
             </div>
-            {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="a16z-link">{{ company.website|replace('https://', '')|replace('http://', '') }} ↗</a>{% endif %}
+            <div class="a16z-links">
+              {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="a16z-link">{{ company.website|replace('https://', '')|replace('http://', '')|replace('/', '') }} ↗</a>{% endif %}
+              {% if company.linkedin %}<a href="{{ company.linkedin }}" target="_blank" rel="noopener" class="a16z-link">LinkedIn ↗</a>{% endif %}
+            </div>
           </div>
         </div>
       </article>
