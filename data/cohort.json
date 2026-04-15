@@ -3,12 +3,14 @@
   "companies": [
     {
       "slug": "headroom-labs",
-      "name": "Headroom Labs",
-      "tagline": "Open-source context compression and persistent memory for AI agents.",
-      "description": "Open-source infrastructure that sits in the agent request and response loop, compressing multi-modal context (text, code, images, structured data) and providing persistent memory across sessions.",
-      "website": "https://github.com/chopratejas/headroom",
+      "name": "Headroom",
+      "tagline": "The context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals.",
+      "description": "Headroom is the context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals. The open-source proxy (1,300+ GitHub stars, 40K+ PyPI downloads, 50B tokens saved) integrates with LangChain, Claude Code, Codex, and MCP.",
+      "website": "https://headroomlabs.ai",
       "linkedin": "",
-      "twitter": "",
+      "twitter": "https://x.com/chopra_tejas",
+      "logo": "/static/img/companies/headroom-labs/logo-full.png",
+      "icon": "/static/img/companies/headroom-labs/icon.png",
       "hq": "United States",
       "year_founded": 2024,
       "team_size": "1",
@@ -16,7 +18,13 @@
       "funding": "Bootstrapped",
       "categories": ["Infrastructure", "Developer Tools", "Open Source"],
       "founders": [
-        {"name": "Tejas Chopra", "title": "Founder", "bio": "ML/AI Infra Engineering Leader at Netflix. 2x TEDx speaker, IEEE Young Scientist Awardee.", "linkedin": ""}
+        {
+          "name": "Tejas Chopra",
+          "title": "Founder & CEO",
+          "bio": "Senior Engineer at Netflix leading caching infrastructure on the Axion platform serving 300M+ users. Deep expertise in distributed systems, ML infrastructure, and GPU/CUDA optimization. Published author (Systems Design, Packt), LinkedIn Learning instructor, IEEE Top 30 Early Career Professionals Awardee, Tech 40 under 40, 2x TEDx speaker. Previously at Box, Datrium, Samsung, Cadence, and Apple. Master's from Carnegie Mellon University.",
+          "linkedin": "https://linkedin.com/in/chopratejas",
+          "headshot": "/static/img/founders/tejas-chopra.jpg"
+        }
       ]
     },
     {
