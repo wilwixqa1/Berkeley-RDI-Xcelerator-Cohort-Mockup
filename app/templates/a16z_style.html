@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Portfolio — Berkeley Xcelerator{% endblock %}
+{% block title %}2026 Spring Cohort — Berkeley Xcelerator{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/a16z.css">{% endblock %}
 {% block content %}
 <section class="hero-banner">
@@ -8,8 +8,7 @@
 
 <section class="a16z-hero">
   <div class="container">
-    <p class="eyebrow">{{ cohort.cohort_name }}</p>
-    <h1>Portfolio</h1>
+    <h1>2026 Spring Cohort</h1>
   </div>
 </section>
 
@@ -56,9 +55,9 @@
               {% endfor %}
             </div>
             <div class="a16z-meta">
-              <span>{{ company.stage }}</span>
-              <span>{{ company.funding }}</span>
               <span>{{ company.hq }}</span>
+              <span>Team of {{ company.team_size }}</span>
+              <span>Founded {{ company.year_founded }}</span>
             </div>
             <div class="a16z-links">
               {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="a16z-link">{{ company.website|replace('https://', '')|replace('http://', '')|replace('/', '') }} ↗</a>{% endif %}
