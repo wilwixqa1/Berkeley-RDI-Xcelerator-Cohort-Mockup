@@ -147,37 +147,41 @@
         },
         {
             "slug": "nimblemind",
-            "name": "Nimblemind.ai",
-            "tagline": "AI-native data infrastructure for healthcare with specialty-specific agents.",
-            "description": "Specialty-specific AI agents automate cleaning, labeling, and harmonization of multimodal clinical data (EHR, imaging, genomics, wearables, patient-reported outcomes), reducing data prep timelines from months to days.",
-            "website": "",
-            "linkedin": "",
+            "name": "Nimblemind",
+            "tagline": "AI agents for healthcare data interoperability, automating feature extraction from multi-modal healthcare data.",
+            "description": "Nimblemind trains and builds agents for Healthcare Data Interoperability. Nimblemind automates feature extraction from multi-modal healthcare data.",
+            "website": "https://www.nimblemind.ai/",
+            "linkedin": "https://www.linkedin.com/company/nimblemindai",
             "twitter": "",
-            "hq": "Chicago, IL",
-            "year_founded": 2023,
-            "team_size": "3-5",
-            "stage": "Revenue-generating",
-            "funding": "$2.5M (Techstars, Great Oaks VC, Bread & Butter, Victorum, Stone Mountain)",
+            "logo": "/static/img/companies/nimblemind/logo-full.png",
+            "icon": "/static/img/companies/nimblemind/icon.png",
+            "hq": "Chicago, USA",
+            "year_founded": 2024,
+            "team_size": "8",
+            "stage": "",
+            "funding": "",
             "categories": [
                 "Healthcare",
-                "Data Infrastructure",
-                "Vertical AI"
+                "AI Agents",
+                "Data Interoperability"
             ],
             "founders": [
                 {
                     "name": "Pi Zonooz",
                     "title": "CEO",
-                    "bio": "Previously launched 40+ products at AWS and Stripe. Kellogg MBA. Founding/technical engineer at three prior startups.",
-                    "linkedin": ""
+                    "bio": "Raised in Chicago in an immigrant family. Nuclear Engineering degrees from UIUC. Career in tech at AWS and Stripe, where he launched 40 first-party services including AWS Data Marketplace for Healthcare, led the first EPIC deployment on AWS, and built a $1B+ ARR business focused on industry solutions. Previously helped raise money and design products at Sun King and Starfire Industries. Started Nimblemind to solve thorny data/AI problems in healthcare.",
+                    "linkedin": "https://www.linkedin.com/in/piz/",
+                    "headshot": "/static/img/founders/pi-zonooz.jpg"
                 },
                 {
                     "name": "Navin Kumar",
                     "title": "Chief AI Officer",
-                    "bio": "Yale PhD in ML/NLP. Former Head of Data Science at NYC Health + Hospitals.",
-                    "linkedin": ""
+                    "bio": "Born and raised in Singapore. PhD from Yale with Nicholas Christakis, publishing over 60 papers and raising over $1M in research funding. Worked at NYC Health + Hospitals managing data science and AI initiatives for the nation's largest public hospital system, improving outcomes for over 1M patients. Started Nimblemind to solve complex AI problems in healthcare, especially for minoritized individuals.",
+                    "linkedin": "https://www.linkedin.com/in/navin-kumar88/",
+                    "headshot": "/static/img/founders/navin-kumar.jpg"
                 }
             ],
-            "featured": false
+            "featured": true
         },
         {
             "slug": "founding-dev",
