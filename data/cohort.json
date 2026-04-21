@@ -187,16 +187,18 @@
         {
             "slug": "founding-dev",
             "name": "Founding Dev",
-            "tagline": "Agentic AI editor that builds and manages custom SaaS replacements.",
-            "description": "Lets businesses build complex SaaS replacements (BambooHR, DocuSign, QuickBooks, etc.) from templates or scratch, then deploys and manages them through the same platform.",
-            "website": "",
+            "tagline": "Replace your SaaS stack with software you own.",
+            "description": "Founding Dev helps companies replace bloated and expensive SaaS subscriptions with tools they own and control. AI agents and production-ready templates let teams deploy custom internal tools in minutes and fully own the source code, infrastructure, and data.",
+            "website": "https://founding.dev",
             "linkedin": "",
-            "twitter": "",
-            "hq": "Bay Area, CA",
-            "year_founded": 2024,
-            "team_size": "3-5",
-            "stage": "Profitable, $30.2K MRR",
-            "funding": "$200K (Antler), raising $2-4M",
+            "twitter": "https://x.com/ai_talha",
+            "logo": "/static/img/companies/founding-dev/logo-full.png",
+            "icon": "/static/img/companies/founding-dev/icon.png",
+            "hq": "San Francisco, CA",
+            "year_founded": 2025,
+            "team_size": "5",
+            "stage": "",
+            "funding": "",
             "categories": [
                 "Developer Tools",
                 "SaaS",
@@ -204,13 +206,14 @@
             ],
             "founders": [
                 {
-                    "name": "Talha",
-                    "title": "Founder",
-                    "bio": "Second-time entrepreneur. 13+ years consulting for Scale AI, GitLab, Northwestern Mutual across engineering, product, and sales.",
-                    "linkedin": ""
+                    "name": "Talha Masood",
+                    "title": "Founder & CEO",
+                    "bio": "Second-time founder; previous company raised $2.7M and scaled to ~$4M ARR. 13+ years across engineering, product, and sales at Scale AI, GitLab, and Northwestern Mutual.",
+                    "linkedin": "https://www.linkedin.com/in/talha-masood-a347a069/",
+                    "headshot": "/static/img/founders/talha-masood.jpg"
                 }
             ],
-            "featured": false
+            "featured": true
         },
         {
             "slug": "weereel",
