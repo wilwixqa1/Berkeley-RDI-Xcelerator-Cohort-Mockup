@@ -5,10 +5,10 @@
             "slug": "narada",
             "name": "Narada AI",
             "tagline": "Agentic automation platform using Large Action Models to automate complex enterprise workflows end-to-end.",
-            "description": "Narada AI is an agentic automation platform powered by a proprietary Large Action Model that can plan, orchestrate, and execute workflows across APIs, web apps, and enterprise systems. The platform dynamically decomposes tasks into smaller steps using an LLM compiler, executes them in parallel, and validates each step with built-in testing and self-healing. Narada targets enterprise testing, operations, and data validation workflows across systems like Workday, SAP, and internal tools, replacing brittle RPA solutions that break when interfaces change.",
+            "description": "Narada is an agentic automation platform developed out of the UC Berkeley AI Research Lab that enables enterprises to automate complex, multi-step workflows across their business applications. Their AI agents execute processes end-to-end across both SaaS and legacy systems, adapt and self-heal to variable interfaces, and operate via the browser, APIs, and Citrix.",
             "website": "https://www.narada.ai",
-            "linkedin": "https://www.linkedin.com/company/narada-ai",
-            "twitter": "https://twitter.com/Narada_AI",
+            "linkedin": "https://www.linkedin.com/company/narada-ai/",
+            "twitter": "https://x.com/Narada_AI",
             "hq": "Berkeley, CA",
             "year_founded": 2021,
             "team_size": "11-20",
@@ -19,26 +19,28 @@
                 {
                     "name": "Dave Park",
                     "title": "Co-Founder & CEO",
-                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition). 20+ years in enterprise software.",
-                    "linkedin": "https://www.linkedin.com/in/davidpark/",
-                    "headshot": ""
+                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition by Synopsys). Serial entrepreneur.",
+                    "linkedin": "https://www.linkedin.com/in/dave-park-narada/",
+                    "headshot": "/static/img/founders/dave-park.jpg"
                 },
                 {
                     "name": "Amir Gholami",
                     "title": "Co-Founder & CTO",
-                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin.",
+                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin. Part of NVIDIA team that enabled FP16 training.",
                     "linkedin": "https://www.linkedin.com/in/a-gholami",
-                    "headshot": ""
+                    "headshot": "/static/img/founders/amir-gholami.jpg"
                 },
                 {
                     "name": "Kurt Keutzer",
                     "title": "Co-Founder & CSO",
                     "bio": "Professor, UC Berkeley EECS. Former CTO of Synopsys. Co-founded DeepScale (acq. Tesla), Nexusflow (acq. NVIDIA).",
                     "linkedin": "https://www.linkedin.com/in/kurtkeutzer/",
-                    "headshot": ""
+                    "headshot": "/static/img/founders/kurt-keutzer.jpg"
                 }
             ],
-            "featured": true
+            "featured": true,
+            "logo": "/static/img/companies/narada/logo-full.png",
+            "icon": "/static/img/companies/narada/icon.png"
         },
         {
             "slug": "cognee",
