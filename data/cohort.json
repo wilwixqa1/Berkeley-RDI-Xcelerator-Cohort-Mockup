@@ -244,7 +244,7 @@
             "name": "ArmorIQ",
             "tagline": "AI agent security platform that enforces intent-based policy at the reasoning-to-execution boundary.",
             "description": "ArmorIQ is an AI agent security platform that acts as a control fabric between autonomous agents and enterprise governance domains, intercepting actions in real time and enforcing intent-based policy before any API call, data access, or workflow executes. Unlike traditional IAM or guardrails, ArmorIQ addresses the emerging threat of agents acting outside their delegated scope, blocking rogue behavior at the reasoning-to-execution boundary with full audit trails for SOC2, GDPR, and NIST compliance.",
-            "website": "https://armorq.ai",
+            "website": "https://armoriq.ai",
             "linkedin": "https://www.linkedin.com/company/armoriq/",
             "twitter": "https://x.com/armoriqio",
             "hq": "San Francisco, CA",
