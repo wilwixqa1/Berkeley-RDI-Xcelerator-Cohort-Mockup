@@ -172,8 +172,8 @@
             "website": "https://founding.dev",
             "linkedin": "",
             "twitter": "https://x.com/ai_talha",
-            "logo": "",
-            "icon": "",
+            "logo": "/static/img/companies/founding-dev/logo-full.png",
+            "icon": "/static/img/companies/founding-dev/icon.png",
             "hq": "San Francisco, CA",
             "year_founded": 2025,
             "team_size": "5",
@@ -186,7 +186,7 @@
                     "title": "Founder & CEO",
                     "bio": "Second-time founder; previous company raised $2.7M and scaled to ~$4M ARR.",
                     "linkedin": "https://www.linkedin.com/in/talha-masood-a347a069/",
-                    "headshot": ""
+                    "headshot": "/static/img/founders/talha-masood.jpg"
                 }
             ],
             "featured": true
