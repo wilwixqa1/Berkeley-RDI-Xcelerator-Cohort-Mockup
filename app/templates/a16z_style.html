@@ -21,6 +21,7 @@
           <div class="a16z-card-front">
             {% if company.logo %}
               <div class="a16z-logo a16z-logo-img"><img src="{{ company.logo }}" alt="{{ company.name }}"></div>
+              <h3>{{ company.name }}</h3>
             {% elif company.icon %}
               <div class="a16z-logo a16z-logo-img"><img src="{{ company.icon }}" alt="{{ company.name }}"></div>
               <h3>{{ company.name }}</h3>
