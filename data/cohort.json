@@ -21,7 +21,7 @@
                 {
                     "name": "Tejas Chopra",
                     "title": "Founder & CEO",
-                    "bio": "ML/AI Infrastructure Engineering Leader at Netflix. Prev. Box, Samsung, Apple. MS Carnegie Mellon.",
+                    "bio": "Prev. Netflix (ML/AI Infrastructure), Box, Samsung, Apple. MS Carnegie Mellon.",
                     "linkedin": "https://linkedin.com/in/chopratejas",
                     "headshot": "/static/img/founders/tejas-chopra.jpg"
                 }
@@ -53,14 +53,14 @@
                 {
                     "name": "Ketan Bhardwaj",
                     "title": "Co-Founder & CTO",
-                    "bio": "PhD Computer Science, Georgia Tech. 14+ years in AI systems research.",
+                    "bio": "PhD Computer Science, Georgia Tech. Senior Research Engineer at Georgia Tech.",
                     "linkedin": "https://www.linkedin.com/in/ketanbj/",
                     "headshot": "/static/img/founders/ketan-bhardwaj.jpg"
                 },
                 {
                     "name": "Vaibhav Bhosale",
                     "title": "Co-Founder & Chief Scientist",
-                    "bio": "PhD candidate at Georgia Tech. Prev. Microsoft.",
+                    "bio": "PhD candidate, Georgia Tech. Prev. Microsoft.",
                     "linkedin": "https://www.linkedin.com/in/vaibhavpbhosale15/",
                     "headshot": "/static/img/founders/vaibhav-bhosale.jpg"
                 }
@@ -96,7 +96,7 @@
                 {
                     "name": "Ramanuj Pandey",
                     "title": "Co-Founder & CTO",
-                    "bio": "25+ years in security platforms. Prev. Fortinet, Juniper.",
+                    "bio": "Prev. Fortinet, Juniper. 25+ years in security platforms.",
                     "linkedin": "https://www.linkedin.com/in/ramanuj-p-84810024/",
                     "headshot": ""
                 }
@@ -122,7 +122,7 @@
                 {
                     "name": "Vasilije Markovic",
                     "title": "Founder & CEO",
-                    "bio": "10+ years in big data and data engineering. Prev. Zalando, Taxfix, Omio.",
+                    "bio": "Prev. Zalando, Taxfix, Omio. Background in data engineering and cognitive sciences.",
                     "linkedin": "https://www.linkedin.com/in/vasilije-markovic-13302471/",
                     "headshot": "/static/img/founders/vasilije-markovic.jpg"
                 }
@@ -150,7 +150,7 @@
                 {
                     "name": "Pi Zonooz",
                     "title": "Co-Founder & CEO",
-                    "bio": "Prev. AWS and Stripe, launched 40+ first-party services. Nuclear Engineering, UIUC.",
+                    "bio": "Prev. AWS and Stripe. MBA, Northwestern.",
                     "linkedin": "https://www.linkedin.com/in/piz/",
                     "headshot": "/static/img/founders/pi-zonooz.jpg"
                 },
@@ -184,7 +184,7 @@
                 {
                     "name": "Talha Masood",
                     "title": "Founder & CEO",
-                    "bio": "Second-time founder; previous company raised $2.7M and scaled to ~$4M ARR.",
+                    "bio": "Second-time founder. Previous company raised $2.7M and scaled to ~$4M ARR.",
                     "linkedin": "https://www.linkedin.com/in/talha-masood-a347a069/",
                     "headshot": "/static/img/founders/talha-masood.jpg"
                 }
@@ -271,28 +271,28 @@
                 {
                     "name": "Laurent Py",
                     "title": "Co-Founder & CEO",
-                    "bio": "Multi-time founder with a PhD in Computer Science. Scaled SaaS businesses up to $80M.",
+                    "bio": "Multi-time founder. PhD in Computer Science. Scaled SaaS businesses up to $80M.",
                     "linkedin": "https://www.linkedin.com/in/laurentpy/",
                     "headshot": "/static/img/founders/laurent-py.png"
                 },
                 {
                     "name": "Soheil Feizi",
                     "title": "Co-Founder & CSO",
-                    "bio": "Associate Professor, University of Maryland. PhD MIT, postdoc Stanford. 2024 PECASE recipient.",
+                    "bio": "Associate Professor, University of Maryland. PhD MIT, postdoc Stanford.",
                     "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/",
                     "headshot": "/static/img/founders/soheil-feizi.jpg"
                 },
                 {
                     "name": "Priyatham Kattakinda",
                     "title": "Co-Founder & Head of Engineering",
-                    "bio": "PhD from University of Maryland in ML systems reliability.",
+                    "bio": "PhD from University of Maryland. Prev. research in ML systems reliability.",
                     "linkedin": "https://www.linkedin.com/in/priyathamkat/",
                     "headshot": "/static/img/founders/priyatham-kattakinda.jpg"
                 },
                 {
                     "name": "Wenxiao Wang",
                     "title": "Co-Founder & Head of AI",
-                    "bio": "PhD from University of Maryland, BS from Tsinghua Yao Class. 2,000+ citations.",
+                    "bio": "PhD from University of Maryland. BS from Tsinghua University.",
                     "linkedin": "https://www.linkedin.com/in/wenxiaowang/",
                     "headshot": "/static/img/founders/wenxiao-wang.jpg"
                 }
@@ -347,14 +347,14 @@
                 {
                     "name": "Dave Park",
                     "title": "Co-Founder & CEO",
-                    "bio": "Co-founded Coverity out of Stanford CS PhD ($375M acquisition). 20+ years in enterprise software.",
+                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition). 20+ years in enterprise software.",
                     "linkedin": "https://www.linkedin.com/in/davidpark/",
                     "headshot": ""
                 },
                 {
                     "name": "Amir Gholami",
                     "title": "Co-Founder & CTO",
-                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin. 50+ publications, 18,000+ citations.",
+                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin.",
                     "linkedin": "https://www.linkedin.com/in/a-gholami",
                     "headshot": ""
                 },
