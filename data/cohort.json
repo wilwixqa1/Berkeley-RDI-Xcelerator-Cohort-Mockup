@@ -2,102 +2,39 @@
     "cohort_name": "2026 Spring Cohort",
     "companies": [
         {
-            "slug": "headroom-labs",
-            "name": "Headroom",
-            "tagline": "The context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals.",
-            "description": "Headroom is the context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals. The open-source proxy (1,300+ GitHub stars, 40K+ PyPI downloads, 50B tokens saved) integrates with LangChain, Claude Code, Codex, and MCP.",
-            "website": "https://headroomlabs.ai",
-            "linkedin": "",
-            "twitter": "https://x.com/chopra_tejas",
-            "logo": "/static/img/companies/headroom-labs/logo-full.png",
-            "icon": "/static/img/companies/headroom-labs/icon.png",
-            "hq": "Fremont, CA",
-            "year_founded": 2024,
-            "team_size": "1",
-            "stage": "Pre-revenue",
-            "funding": "Bootstrapped",
-            "categories": [],
-            "founders": [
-                {
-                    "name": "Tejas Chopra",
-                    "title": "Founder & CEO",
-                    "bio": "Prev. Netflix (ML/AI Infrastructure), Box, Samsung, Apple. MS Carnegie Mellon.",
-                    "linkedin": "https://linkedin.com/in/chopratejas",
-                    "headshot": "/static/img/founders/tejas-chopra.jpg"
-                }
-            ],
-            "featured": true
-        },
-        {
-            "slug": "armoriq",
-            "name": "ArmorIQ",
-            "tagline": "AI agent security platform that enforces intent-based policy at the reasoning-to-execution boundary.",
-            "description": "ArmorIQ is an AI agent security platform that acts as a control fabric between autonomous agents and enterprise governance domains, intercepting actions in real time and enforcing intent-based policy before any API call, data access, or workflow executes. Unlike traditional IAM or guardrails, ArmorIQ addresses the emerging threat of agents acting outside their delegated scope, blocking rogue behavior at the reasoning-to-execution boundary with full audit trails for SOC2, GDPR, and NIST compliance.",
-            "website": "https://armorq.ai",
-            "linkedin": "https://www.linkedin.com/company/armoriq/",
-            "twitter": "https://x.com/armoriqio",
-            "hq": "San Francisco, CA",
-            "year_founded": 2023,
+            "slug": "narada",
+            "name": "Narada AI",
+            "tagline": "Agentic automation platform using Large Action Models to automate complex enterprise workflows end-to-end.",
+            "description": "Narada AI is an agentic automation platform powered by a proprietary Large Action Model that can plan, orchestrate, and execute workflows across APIs, web apps, and enterprise systems. The platform dynamically decomposes tasks into smaller steps using an LLM compiler, executes them in parallel, and validates each step with built-in testing and self-healing. Narada targets enterprise testing, operations, and data validation workflows across systems like Workday, SAP, and internal tools, replacing brittle RPA solutions that break when interfaces change.",
+            "website": "https://www.narada.ai",
+            "linkedin": "https://www.linkedin.com/company/narada-ai",
+            "twitter": "https://twitter.com/Narada_AI",
+            "hq": "Berkeley, CA",
+            "year_founded": 2021,
             "team_size": "11-20",
-            "stage": "Revenue-generating",
-            "funding": "$200K bootstrapped, $100K MRR",
+            "stage": "Scaling (>$1M ARR)",
+            "funding": "$11.1M seed",
             "categories": [],
             "founders": [
                 {
-                    "name": "Ram Shanmugam",
+                    "name": "Dave Park",
                     "title": "Co-Founder & CEO",
-                    "bio": "Three-time founder with two acquisitions (AutonomIQ by Sauce Labs, appOrbit by Cohesity).",
-                    "linkedin": "https://www.linkedin.com/in/ramshan/",
-                    "headshot": "/static/img/founders/ram-shanmugam.jpg"
+                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition). 20+ years in enterprise software.",
+                    "linkedin": "https://www.linkedin.com/in/davidpark/",
+                    "headshot": ""
                 },
                 {
-                    "name": "Ketan Bhardwaj",
+                    "name": "Amir Gholami",
                     "title": "Co-Founder & CTO",
-                    "bio": "PhD Computer Science, Georgia Tech. Senior Research Engineer at Georgia Tech.",
-                    "linkedin": "https://www.linkedin.com/in/ketanbj/",
-                    "headshot": "/static/img/founders/ketan-bhardwaj.jpg"
+                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin.",
+                    "linkedin": "https://www.linkedin.com/in/a-gholami",
+                    "headshot": ""
                 },
                 {
-                    "name": "Vaibhav Bhosale",
-                    "title": "Co-Founder & Chief Scientist",
-                    "bio": "PhD candidate, Georgia Tech. Prev. Microsoft.",
-                    "linkedin": "https://www.linkedin.com/in/vaibhavpbhosale15/",
-                    "headshot": "/static/img/founders/vaibhav-bhosale.jpg"
-                }
-            ],
-            "featured": true,
-            "logo": "/static/img/companies/armoriq/logo-full-dark.png",
-            "icon": "/static/img/companies/armoriq/icon.png"
-        },
-        {
-            "slug": "agntid",
-            "name": "AgntID",
-            "tagline": "Access Control Enforcement for AI Agents.",
-            "description": "Runtime enforcement layer for AI agent access control with scoped, ephemeral credentials per tool invocation. Intercepts agent tool calls, evaluates policy and intent, derives scoped credentials, and executes. Integrates with existing IAM and MCP ecosystems without requiring agent redesign.",
-            "website": "https://agntid.ai/",
-            "linkedin": "https://www.linkedin.com/company/agntid-ai/",
-            "twitter": "",
-            "logo": "/static/img/companies/agntid/logo-full.png",
-            "icon": "/static/img/companies/agntid/icon.png",
-            "hq": "Dublin, CA",
-            "year_founded": 2025,
-            "team_size": "2 FTE",
-            "stage": "Pre-revenue, 7 enterprise pilots",
-            "funding": "$500K from strategic angels",
-            "categories": [],
-            "founders": [
-                {
-                    "name": "Sundar Krish",
-                    "title": "Co-Founder & CEO",
-                    "bio": "Serial entrepreneur. Founded Sken.ai (acquired by Fortinet) and waygum.io (acquired).",
-                    "linkedin": "https://www.linkedin.com/in/kgsundar/",
-                    "headshot": "/static/img/founders/sundar-krish.jpg"
-                },
-                {
-                    "name": "Ramanuj Pandey",
-                    "title": "Co-Founder & CTO",
-                    "bio": "Prev. Fortinet, Juniper. 25+ years in security platforms.",
-                    "linkedin": "https://www.linkedin.com/in/ramanuj-p-84810024/",
+                    "name": "Kurt Keutzer",
+                    "title": "Co-Founder & CSO",
+                    "bio": "Professor, UC Berkeley EECS. Former CTO of Synopsys. Co-founded DeepScale (acq. Tesla), Nexusflow (acq. NVIDIA).",
+                    "linkedin": "https://www.linkedin.com/in/kurtkeutzer/",
                     "headshot": ""
                 }
             ],
@@ -165,6 +102,33 @@
             "featured": true
         },
         {
+            "slug": "headroom-labs",
+            "name": "Headroom",
+            "tagline": "The context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals.",
+            "description": "Headroom is the context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals. The open-source proxy (1,300+ GitHub stars, 40K+ PyPI downloads, 50B tokens saved) integrates with LangChain, Claude Code, Codex, and MCP.",
+            "website": "https://headroomlabs.ai",
+            "linkedin": "",
+            "twitter": "https://x.com/chopra_tejas",
+            "logo": "/static/img/companies/headroom-labs/logo-full.png",
+            "icon": "/static/img/companies/headroom-labs/icon.png",
+            "hq": "Fremont, CA",
+            "year_founded": 2024,
+            "team_size": "1",
+            "stage": "Pre-revenue",
+            "funding": "Bootstrapped",
+            "categories": [],
+            "founders": [
+                {
+                    "name": "Tejas Chopra",
+                    "title": "Founder & CEO",
+                    "bio": "Prev. Netflix (ML/AI Infrastructure), Box, Samsung, Apple. MS Carnegie Mellon.",
+                    "linkedin": "https://linkedin.com/in/chopratejas",
+                    "headshot": "/static/img/founders/tejas-chopra.jpg"
+                }
+            ],
+            "featured": true
+        },
+        {
             "slug": "relai",
             "name": "RELAI",
             "tagline": "Lifelong optimization engine for AI agents that turns production failures into replayable test environments.",
@@ -213,39 +177,34 @@
             "featured": true
         },
         {
-            "slug": "narada",
-            "name": "Narada AI",
-            "tagline": "Agentic automation platform using Large Action Models to automate complex enterprise workflows end-to-end.",
-            "description": "Narada AI is an agentic automation platform powered by a proprietary Large Action Model that can plan, orchestrate, and execute workflows across APIs, web apps, and enterprise systems. The platform dynamically decomposes tasks into smaller steps using an LLM compiler, executes them in parallel, and validates each step with built-in testing and self-healing. Narada targets enterprise testing, operations, and data validation workflows across systems like Workday, SAP, and internal tools, replacing brittle RPA solutions that break when interfaces change.",
-            "website": "https://www.narada.ai",
-            "linkedin": "https://www.linkedin.com/company/narada-ai",
-            "twitter": "https://twitter.com/Narada_AI",
-            "hq": "Berkeley, CA",
-            "year_founded": 2021,
-            "team_size": "11-20",
-            "stage": "Scaling (>$1M ARR)",
-            "funding": "$11.1M seed",
+            "slug": "agntid",
+            "name": "AgntID",
+            "tagline": "Access Control Enforcement for AI Agents.",
+            "description": "Runtime enforcement layer for AI agent access control with scoped, ephemeral credentials per tool invocation. Intercepts agent tool calls, evaluates policy and intent, derives scoped credentials, and executes. Integrates with existing IAM and MCP ecosystems without requiring agent redesign.",
+            "website": "https://agntid.ai/",
+            "linkedin": "https://www.linkedin.com/company/agntid-ai/",
+            "twitter": "",
+            "logo": "/static/img/companies/agntid/logo-full.png",
+            "icon": "/static/img/companies/agntid/icon.png",
+            "hq": "Dublin, CA",
+            "year_founded": 2025,
+            "team_size": "2 FTE",
+            "stage": "Pre-revenue, 7 enterprise pilots",
+            "funding": "$500K from strategic angels",
             "categories": [],
             "founders": [
                 {
-                    "name": "Dave Park",
+                    "name": "Sundar Krish",
                     "title": "Co-Founder & CEO",
-                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition). 20+ years in enterprise software.",
-                    "linkedin": "https://www.linkedin.com/in/davidpark/",
-                    "headshot": ""
+                    "bio": "Serial entrepreneur. Founded Sken.ai (acquired by Fortinet) and waygum.io (acquired).",
+                    "linkedin": "https://www.linkedin.com/in/kgsundar/",
+                    "headshot": "/static/img/founders/sundar-krish.jpg"
                 },
                 {
-                    "name": "Amir Gholami",
+                    "name": "Ramanuj Pandey",
                     "title": "Co-Founder & CTO",
-                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin.",
-                    "linkedin": "https://www.linkedin.com/in/a-gholami",
-                    "headshot": ""
-                },
-                {
-                    "name": "Kurt Keutzer",
-                    "title": "Co-Founder & CSO",
-                    "bio": "Professor, UC Berkeley EECS. Former CTO of Synopsys. Co-founded DeepScale (acq. Tesla), Nexusflow (acq. NVIDIA).",
-                    "linkedin": "https://www.linkedin.com/in/kurtkeutzer/",
+                    "bio": "Prev. Fortinet, Juniper. 25+ years in security platforms.",
+                    "linkedin": "https://www.linkedin.com/in/ramanuj-p-84810024/",
                     "headshot": ""
                 }
             ],
@@ -277,6 +236,47 @@
                 }
             ],
             "featured": true
+        },
+        {
+            "slug": "armoriq",
+            "name": "ArmorIQ",
+            "tagline": "AI agent security platform that enforces intent-based policy at the reasoning-to-execution boundary.",
+            "description": "ArmorIQ is an AI agent security platform that acts as a control fabric between autonomous agents and enterprise governance domains, intercepting actions in real time and enforcing intent-based policy before any API call, data access, or workflow executes. Unlike traditional IAM or guardrails, ArmorIQ addresses the emerging threat of agents acting outside their delegated scope, blocking rogue behavior at the reasoning-to-execution boundary with full audit trails for SOC2, GDPR, and NIST compliance.",
+            "website": "https://armorq.ai",
+            "linkedin": "https://www.linkedin.com/company/armoriq/",
+            "twitter": "https://x.com/armoriqio",
+            "hq": "San Francisco, CA",
+            "year_founded": 2023,
+            "team_size": "11-20",
+            "stage": "Revenue-generating",
+            "funding": "$200K bootstrapped, $100K MRR",
+            "categories": [],
+            "founders": [
+                {
+                    "name": "Ram Shanmugam",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Three-time founder with two acquisitions (AutonomIQ by Sauce Labs, appOrbit by Cohesity).",
+                    "linkedin": "https://www.linkedin.com/in/ramshan/",
+                    "headshot": "/static/img/founders/ram-shanmugam.jpg"
+                },
+                {
+                    "name": "Ketan Bhardwaj",
+                    "title": "Co-Founder & CTO",
+                    "bio": "PhD Computer Science, Georgia Tech. Senior Research Engineer at Georgia Tech.",
+                    "linkedin": "https://www.linkedin.com/in/ketanbj/",
+                    "headshot": "/static/img/founders/ketan-bhardwaj.jpg"
+                },
+                {
+                    "name": "Vaibhav Bhosale",
+                    "title": "Co-Founder & Chief Scientist",
+                    "bio": "PhD candidate, Georgia Tech. Prev. Microsoft.",
+                    "linkedin": "https://www.linkedin.com/in/vaibhavpbhosale15/",
+                    "headshot": "/static/img/founders/vaibhav-bhosale.jpg"
+                }
+            ],
+            "featured": true,
+            "logo": "/static/img/companies/armoriq/logo-full-dark.png",
+            "icon": "/static/img/companies/armoriq/icon.png"
         },
         {
             "slug": "weereel",
