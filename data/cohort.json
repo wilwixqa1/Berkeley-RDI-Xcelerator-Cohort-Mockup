@@ -165,6 +165,93 @@
             "featured": true
         },
         {
+            "slug": "relai",
+            "name": "RELAI",
+            "tagline": "Lifelong optimization engine for AI agents that turns production failures into replayable test environments.",
+            "description": "RELAI is a lifelong optimization engine for AI agents that turns production failures and user feedback into replayable test environments. Its continuous learning loop helps enterprise teams improve prompts, models, tools, memory and agent structure while increasing reliability and preventing regressions.",
+            "website": "https://relai.ai/",
+            "linkedin": "https://www.linkedin.com/company/relai-ai/",
+            "twitter": "https://x.com/ReliableAI",
+            "logo": "/static/img/companies/relai/logo-full-clean.png",
+            "icon": "/static/img/companies/relai/icon.png",
+            "hq": "Bethesda, MD",
+            "year_founded": 2024,
+            "team_size": "7",
+            "stage": "Beta with initial users",
+            "funding": "$1.5M (TEDCO, Non Sibi Ventures, NSF SBIR)",
+            "categories": [],
+            "founders": [
+                {
+                    "name": "Laurent Py",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Multi-time founder. PhD in Computer Science. Scaled SaaS businesses up to $80M.",
+                    "linkedin": "https://www.linkedin.com/in/laurentpy/",
+                    "headshot": "/static/img/founders/laurent-py.png"
+                },
+                {
+                    "name": "Soheil Feizi",
+                    "title": "Co-Founder & CSO",
+                    "bio": "Associate Professor, University of Maryland. PhD MIT, postdoc Stanford. 2024 PECASE recipient.",
+                    "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/",
+                    "headshot": "/static/img/founders/soheil-feizi.jpg"
+                },
+                {
+                    "name": "Priyatham Kattakinda",
+                    "title": "Co-Founder & Head of Engineering",
+                    "bio": "PhD from University of Maryland. Prev. research in ML systems reliability.",
+                    "linkedin": "https://www.linkedin.com/in/priyathamkat/",
+                    "headshot": "/static/img/founders/priyatham-kattakinda.jpg"
+                },
+                {
+                    "name": "Wenxiao Wang",
+                    "title": "Co-Founder & Head of AI",
+                    "bio": "PhD from University of Maryland. BS from Tsinghua University (Yao Class).",
+                    "linkedin": "https://www.linkedin.com/in/wenxiaowang/",
+                    "headshot": "/static/img/founders/wenxiao-wang.jpg"
+                }
+            ],
+            "featured": true
+        },
+        {
+            "slug": "narada",
+            "name": "Narada AI",
+            "tagline": "Agentic automation platform using Large Action Models to automate complex enterprise workflows end-to-end.",
+            "description": "Narada AI is an agentic automation platform powered by a proprietary Large Action Model that can plan, orchestrate, and execute workflows across APIs, web apps, and enterprise systems. The platform dynamically decomposes tasks into smaller steps using an LLM compiler, executes them in parallel, and validates each step with built-in testing and self-healing. Narada targets enterprise testing, operations, and data validation workflows across systems like Workday, SAP, and internal tools, replacing brittle RPA solutions that break when interfaces change.",
+            "website": "https://www.narada.ai",
+            "linkedin": "https://www.linkedin.com/company/narada-ai",
+            "twitter": "https://twitter.com/Narada_AI",
+            "hq": "Berkeley, CA",
+            "year_founded": 2021,
+            "team_size": "11-20",
+            "stage": "Scaling (>$1M ARR)",
+            "funding": "$11.1M seed",
+            "categories": [],
+            "founders": [
+                {
+                    "name": "Dave Park",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition). 20+ years in enterprise software.",
+                    "linkedin": "https://www.linkedin.com/in/davidpark/",
+                    "headshot": ""
+                },
+                {
+                    "name": "Amir Gholami",
+                    "title": "Co-Founder & CTO",
+                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin.",
+                    "linkedin": "https://www.linkedin.com/in/a-gholami",
+                    "headshot": ""
+                },
+                {
+                    "name": "Kurt Keutzer",
+                    "title": "Co-Founder & CSO",
+                    "bio": "Professor, UC Berkeley EECS. Former CTO of Synopsys. Co-founded DeepScale (acq. Tesla), Nexusflow (acq. NVIDIA).",
+                    "linkedin": "https://www.linkedin.com/in/kurtkeutzer/",
+                    "headshot": ""
+                }
+            ],
+            "featured": true
+        },
+        {
             "slug": "founding-dev",
             "name": "Founding Dev",
             "tagline": "Replace your SaaS stack with software you own.",
@@ -184,7 +271,7 @@
                 {
                     "name": "Talha Masood",
                     "title": "Founder & CEO",
-                    "bio": "Second-time founder. Previous company raised $2.7M and scaled to ~$4M ARR.",
+                    "bio": "Co-founded Remotebase (backed by Tim Draper, Hustle Fund). Forbes Technology Council member.",
                     "linkedin": "https://www.linkedin.com/in/talha-masood-a347a069/",
                     "headshot": "/static/img/founders/talha-masood.jpg"
                 }
@@ -252,54 +339,6 @@
             "featured": false
         },
         {
-            "slug": "relai",
-            "name": "RELAI",
-            "tagline": "Lifelong optimization engine for AI agents that turns production failures into replayable test environments.",
-            "description": "RELAI is a lifelong optimization engine for AI agents that turns production failures and user feedback into replayable test environments. Its continuous learning loop helps enterprise teams improve prompts, models, tools, memory and agent structure while increasing reliability and preventing regressions.",
-            "website": "https://relai.ai/",
-            "linkedin": "https://www.linkedin.com/company/relai-ai/",
-            "twitter": "https://x.com/ReliableAI",
-            "logo": "/static/img/companies/relai/logo-full-clean.png",
-            "icon": "/static/img/companies/relai/icon.png",
-            "hq": "Bethesda, MD",
-            "year_founded": 2024,
-            "team_size": "7",
-            "stage": "Beta with initial users",
-            "funding": "$1.5M (TEDCO, Non Sibi Ventures, NSF SBIR)",
-            "categories": [],
-            "founders": [
-                {
-                    "name": "Laurent Py",
-                    "title": "Co-Founder & CEO",
-                    "bio": "Multi-time founder. PhD in Computer Science. Scaled SaaS businesses up to $80M.",
-                    "linkedin": "https://www.linkedin.com/in/laurentpy/",
-                    "headshot": "/static/img/founders/laurent-py.png"
-                },
-                {
-                    "name": "Soheil Feizi",
-                    "title": "Co-Founder & CSO",
-                    "bio": "Associate Professor, University of Maryland. PhD MIT, postdoc Stanford. 2024 PECASE recipient.",
-                    "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/",
-                    "headshot": "/static/img/founders/soheil-feizi.jpg"
-                },
-                {
-                    "name": "Priyatham Kattakinda",
-                    "title": "Co-Founder & Head of Engineering",
-                    "bio": "PhD from University of Maryland. Prev. research in ML systems reliability.",
-                    "linkedin": "https://www.linkedin.com/in/priyathamkat/",
-                    "headshot": "/static/img/founders/priyatham-kattakinda.jpg"
-                },
-                {
-                    "name": "Wenxiao Wang",
-                    "title": "Co-Founder & Head of AI",
-                    "bio": "PhD from University of Maryland. BS from Tsinghua University (Yao Class).",
-                    "linkedin": "https://www.linkedin.com/in/wenxiaowang/",
-                    "headshot": "/static/img/founders/wenxiao-wang.jpg"
-                }
-            ],
-            "featured": true
-        },
-        {
             "slug": "qbg",
             "name": "QBG",
             "tagline": "AI deployment service for mid-market businesses.",
@@ -328,45 +367,6 @@
                 }
             ],
             "featured": false
-        },
-        {
-            "slug": "narada",
-            "name": "Narada AI",
-            "tagline": "Agentic automation platform using Large Action Models to automate complex enterprise workflows end-to-end.",
-            "description": "Narada AI is an agentic automation platform powered by a proprietary Large Action Model that can plan, orchestrate, and execute workflows across APIs, web apps, and enterprise systems. The platform dynamically decomposes tasks into smaller steps using an LLM compiler, executes them in parallel, and validates each step with built-in testing and self-healing. Narada targets enterprise testing, operations, and data validation workflows across systems like Workday, SAP, and internal tools, replacing brittle RPA solutions that break when interfaces change.",
-            "website": "https://www.narada.ai",
-            "linkedin": "https://www.linkedin.com/company/narada-ai",
-            "twitter": "https://twitter.com/Narada_AI",
-            "hq": "Berkeley, CA",
-            "year_founded": 2021,
-            "team_size": "11-20",
-            "stage": "Scaling (>$1M ARR)",
-            "funding": "$11.1M seed",
-            "categories": [],
-            "founders": [
-                {
-                    "name": "Dave Park",
-                    "title": "Co-Founder & CEO",
-                    "bio": "Co-founded Coverity out of Stanford ($375M acquisition). 20+ years in enterprise software.",
-                    "linkedin": "https://www.linkedin.com/in/davidpark/",
-                    "headshot": ""
-                },
-                {
-                    "name": "Amir Gholami",
-                    "title": "Co-Founder & CTO",
-                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin.",
-                    "linkedin": "https://www.linkedin.com/in/a-gholami",
-                    "headshot": ""
-                },
-                {
-                    "name": "Kurt Keutzer",
-                    "title": "Co-Founder & CSO",
-                    "bio": "Professor, UC Berkeley EECS. Former CTO of Synopsys. Co-founded DeepScale (acq. Tesla), Nexusflow (acq. NVIDIA).",
-                    "linkedin": "https://www.linkedin.com/in/kurtkeutzer/",
-                    "headshot": ""
-                }
-            ],
-            "featured": true
         }
     ]
 }
