@@ -14,12 +14,6 @@
 
     <div class="filters">
       <input type="text" id="search" placeholder="Search companies, founders, technologies…" />
-      <div class="chip-row" id="cat-chips">
-        <button class="chip active" data-cat="">All</button>
-        {% for cat in categories %}
-          <button class="chip" data-cat="{{ cat }}">{{ cat }}</button>
-        {% endfor %}
-      </div>
     </div>
   </div>
 </section>
@@ -31,7 +25,6 @@
       <article class="yc-card"
                data-name="{{ company.name|lower }}"
                data-tagline="{{ company.tagline|lower }}"
-               data-categories="{{ company.categories|join(',')|lower }}"
                data-founders="{% for f in company.founders %}{{ f.name|lower }} {% endfor %}">
         <div class="yc-card-header">
           {% if company.icon %}
@@ -47,11 +40,6 @@
           </div>
         </div>
         <p class="yc-card-tagline">{{ company.tagline }}</p>
-        <div class="yc-card-meta">
-          {% for cat in company.categories %}
-            <span class="meta-pill">{{ cat }}</span>
-          {% endfor %}
-        </div>
         <details class="yc-card-details">
           <summary>More info</summary>
           <p>{{ company.description }}</p>
@@ -76,7 +64,6 @@
             {% endfor %}
           </div>
           <div class="company-meta-grid">
-            <div><span class="muted">Team</span> {{ company.team_size }}</div>
             <div><span class="muted">Founded</span> {{ company.year_founded }}</div>
           </div>
           <div class="company-links">
@@ -99,21 +86,17 @@
 {% block scripts %}
 <script>
   const search = document.getElementById('search');
-  const chips = document.querySelectorAll('.chip');
   const cards = document.querySelectorAll('.yc-card');
   const empty = document.getElementById('empty-state');
-  let activeCat = '';
 
   function filter() {
     const q = search.value.toLowerCase().trim();
     let visible = 0;
     cards.forEach(card => {
-      const matchesSearch = !q ||
+      const show = !q ||
         card.dataset.name.includes(q) ||
         card.dataset.tagline.includes(q) ||
         card.dataset.founders.includes(q);
-      const matchesCat = !activeCat || card.dataset.categories.includes(activeCat.toLowerCase());
-      const show = matchesSearch && matchesCat;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -121,13 +104,5 @@
   }
 
   search.addEventListener('input', filter);
-  chips.forEach(chip => {
-    chip.addEventListener('click', () => {
-      chips.forEach(c => c.classList.remove('active'));
-      chip.classList.add('active');
-      activeCat = chip.dataset.cat;
-      filter();
-    });
-  });
 </script>
 {% endblock %}

@@ -29,9 +29,8 @@ def index(request: Request):
 @app.get("/yc-style", response_class=HTMLResponse)
 def yc_style(request: Request):
     data = load_cohort()
-    cats = sorted({c for company in data["companies"] for c in company["categories"]})
     return templates.TemplateResponse(
-        request, "yc_style.html", {"cohort": data, "categories": cats}
+        request, "yc_style.html", {"cohort": data}
     )
 
 

@@ -16,16 +16,12 @@
             "team_size": "1",
             "stage": "Pre-revenue",
             "funding": "Bootstrapped",
-            "categories": [
-                "Infrastructure",
-                "Developer Tools",
-                "Open Source"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Tejas Chopra",
                     "title": "Founder & CEO",
-                    "bio": "Senior Engineer at Netflix leading caching infrastructure on the Axion platform serving 300M+ users. Deep expertise in distributed systems, ML infrastructure, and GPU/CUDA optimization. Published author (Systems Design, Packt), LinkedIn Learning instructor, IEEE Top 30 Early Career Professionals Awardee, Tech 40 under 40, 2x TEDx speaker. Previously at Box, Datrium, Samsung, Cadence, and Apple. Master's from Carnegie Mellon University.",
+                    "bio": "ML/AI Infrastructure Engineering Leader at Netflix. Prev. Box, Samsung, Apple. MS Carnegie Mellon.",
                     "linkedin": "https://linkedin.com/in/chopratejas",
                     "headshot": "/static/img/founders/tejas-chopra.jpg"
                 }
@@ -45,30 +41,26 @@
             "team_size": "11-20",
             "stage": "Revenue-generating",
             "funding": "$200K bootstrapped, $100K MRR",
-            "categories": [
-                "AI Security",
-                "Governance",
-                "Enterprise"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Ram Shanmugam",
-                    "title": "Founder & CEO",
-                    "bio": "Ram Shanmugam has founded and exited two venture-backed AI companies: AutonomIQ (acquired by Sauce Labs), an AI testing platform that scaled to 600K+ users, and appOrbit (acquired by Cohesity), an ML-driven container automation product. He is a Research Affiliate at MIT CSAIL and a Research Fellow at UC Berkeley EECS, and has published IEEE papers on AI and automation.",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Three-time founder with two acquisitions (AutonomIQ by Sauce Labs, appOrbit by Cohesity).",
                     "linkedin": "https://www.linkedin.com/in/ramshan/",
                     "headshot": "/static/img/founders/ram-shanmugam.jpg"
                 },
                 {
                     "name": "Ketan Bhardwaj",
                     "title": "Co-Founder & CTO",
-                    "bio": "Ketan Bhardwaj earned his PhD in Computer Science from Georgia Tech, where he has spent over 14 years as a researcher and Senior Research Engineer. His work sits at the intersection of AI and systems, with published papers on DNN model slicing, secure edge computing, and distributed app delivery, plus two granted patents in secure mobile edge ecosystems.",
+                    "bio": "PhD Computer Science, Georgia Tech. 14+ years in AI systems research.",
                     "linkedin": "https://www.linkedin.com/in/ketanbj/",
                     "headshot": "/static/img/founders/ketan-bhardwaj.jpg"
                 },
                 {
                     "name": "Vaibhav Bhosale",
                     "title": "Co-Founder & Chief Scientist",
-                    "bio": "Vaibhav Bhosale is finishing his PhD at Georgia Tech, where his dissertation focuses on distributed computing for LEO satellite edge infrastructure. Before his doctorate, he was a software engineer at Microsoft, and has since done research stints at both Microsoft Research and MediaTek.",
+                    "bio": "PhD candidate at Georgia Tech. Prev. Microsoft.",
                     "linkedin": "https://www.linkedin.com/in/vaibhavpbhosale15/",
                     "headshot": "/static/img/founders/vaibhav-bhosale.jpg"
                 }
@@ -92,23 +84,19 @@
             "team_size": "2 FTE",
             "stage": "Pre-revenue, 7 enterprise pilots",
             "funding": "$500K from strategic angels",
-            "categories": [
-                "AI Security",
-                "Identity",
-                "Enterprise"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Sundar Krish",
-                    "title": "Founder & CEO",
-                    "bio": "Serial entrepreneur. Former CEO of Sken.ai (acquired by Fortinet). Previously founded waygum.io (acquired). Product/engineering exec with deep experience in Gen AI, IAM, cybersecurity, and DevSecOps.",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Serial entrepreneur. Founded Sken.ai (acquired by Fortinet) and waygum.io (acquired).",
                     "linkedin": "https://www.linkedin.com/in/kgsundar/",
                     "headshot": "/static/img/founders/sundar-krish.jpg"
                 },
                 {
                     "name": "Ramanuj Pandey",
-                    "title": "Founding CTO",
-                    "bio": "25+ years in security platforms. Security systems architect with deep expertise in identity & runtime authorization, enterprise & cloud infrastructure. Previously at Fortinet and Juniper.",
+                    "title": "Co-Founder & CTO",
+                    "bio": "25+ years in security platforms. Prev. Fortinet, Juniper.",
                     "linkedin": "https://www.linkedin.com/in/ramanuj-p-84810024/",
                     "headshot": ""
                 }
@@ -129,16 +117,12 @@
             "team_size": "15",
             "stage": "Revenue-generating",
             "funding": "$9.3M seed (Pebblebed, 42CAP, Tiny VC)",
-            "categories": [
-                "Infrastructure",
-                "Memory",
-                "Open Source"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Vasilije Markovic",
-                    "title": "Founder",
-                    "bio": "10+ years of experience in big data and data engineering, with a background in cognitive sciences. Has been developing cognitive approaches to memory for years. Previously at Zalando, Taxfix, Omio.",
+                    "title": "Founder & CEO",
+                    "bio": "10+ years in big data and data engineering. Prev. Zalando, Taxfix, Omio.",
                     "linkedin": "https://www.linkedin.com/in/vasilije-markovic-13302471/",
                     "headshot": "/static/img/founders/vasilije-markovic.jpg"
                 }
@@ -161,23 +145,19 @@
             "team_size": "8",
             "stage": "",
             "funding": "",
-            "categories": [
-                "Healthcare",
-                "AI Agents",
-                "Data Interoperability"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Pi Zonooz",
-                    "title": "CEO",
-                    "bio": "Raised in Chicago in an immigrant family. Nuclear Engineering degrees from UIUC. Career in tech at AWS and Stripe, where he launched 40 first-party services including AWS Data Marketplace for Healthcare, led the first EPIC deployment on AWS, and built a $1B+ ARR business focused on industry solutions. Previously helped raise money and design products at Sun King and Starfire Industries. Started Nimblemind to solve thorny data/AI problems in healthcare.",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Prev. AWS and Stripe, launched 40+ first-party services. Nuclear Engineering, UIUC.",
                     "linkedin": "https://www.linkedin.com/in/piz/",
                     "headshot": "/static/img/founders/pi-zonooz.jpg"
                 },
                 {
                     "name": "Navin Kumar",
-                    "title": "Chief AI Officer",
-                    "bio": "Born and raised in Singapore. PhD from Yale with Nicholas Christakis, publishing over 60 papers and raising over $1M in research funding. Worked at NYC Health + Hospitals managing data science and AI initiatives for the nation's largest public hospital system, improving outcomes for over 1M patients. Started Nimblemind to solve complex AI problems in healthcare, especially for minoritized individuals.",
+                    "title": "Co-Founder & Chief AI Officer",
+                    "bio": "PhD from Yale. Prev. Head of Data Science at NYC Health + Hospitals.",
                     "linkedin": "https://www.linkedin.com/in/navin-kumar88/",
                     "headshot": "/static/img/founders/navin-kumar.jpg"
                 }
@@ -199,16 +179,12 @@
             "team_size": "5",
             "stage": "",
             "funding": "",
-            "categories": [
-                "Developer Tools",
-                "SaaS",
-                "Vertical AI"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Talha Masood",
                     "title": "Founder & CEO",
-                    "bio": "Second-time founder; previous company raised $2.7M and scaled to ~$4M ARR. 13+ years across engineering, product, and sales at Scale AI, GitLab, and Northwestern Mutual.",
+                    "bio": "Second-time founder; previous company raised $2.7M and scaled to ~$4M ARR.",
                     "linkedin": "https://www.linkedin.com/in/talha-masood-a347a069/",
                     "headshot": "/static/img/founders/talha-masood.jpg"
                 }
@@ -228,11 +204,7 @@
             "team_size": "2-5",
             "stage": "Beta, 30+ users",
             "funding": "Bootstrapped",
-            "categories": [
-                "Consumer",
-                "Social",
-                "Vertical AI"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "CEO",
@@ -262,11 +234,7 @@
             "team_size": "3-5",
             "stage": "Beta with initial users",
             "funding": "$1.7M (YC, Amino Capital)",
-            "categories": [
-                "Developer Tools",
-                "Infrastructure",
-                "GPU"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Aditya Rajagopal",
@@ -286,42 +254,50 @@
         {
             "slug": "relai",
             "name": "RELAI",
-            "tagline": "Reliable AI agent development lifecycle: simulation, evaluation, and optimization.",
-            "description": "Connects to existing agents via SDK, simulates them across diverse synthetic and real-world scenarios, evaluates with Critico (LLM-as-judge, code-based, expert evaluators), and uses Maestro to holistically optimize both agent configuration and graph structure.",
-            "website": "https://relai.ai",
-            "linkedin": "",
-            "twitter": "",
+            "tagline": "Lifelong optimization engine for AI agents that turns production failures into replayable test environments.",
+            "description": "RELAI is a lifelong optimization engine for AI agents that turns production failures and user feedback into replayable test environments. Its continuous learning loop helps enterprise teams improve prompts, models, tools, memory and agent structure while increasing reliability and preventing regressions.",
+            "website": "https://relai.ai/",
+            "linkedin": "https://www.linkedin.com/company/relai-ai/",
+            "twitter": "https://x.com/ReliableAI",
+            "logo": "/static/img/companies/relai/logo-full-clean.png",
+            "icon": "/static/img/companies/relai/icon.png",
             "hq": "Bethesda, MD",
             "year_founded": 2024,
-            "team_size": "6-10",
+            "team_size": "7",
             "stage": "Beta with initial users",
             "funding": "$1.5M (TEDCO, Non Sibi Ventures, NSF SBIR)",
-            "categories": [
-                "AI Reliability",
-                "Evaluation",
-                "Enterprise"
-            ],
+            "categories": [],
             "founders": [
                 {
+                    "name": "Laurent Py",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Multi-time founder with a PhD in Computer Science. Scaled SaaS businesses up to $80M.",
+                    "linkedin": "https://www.linkedin.com/in/laurentpy/",
+                    "headshot": "/static/img/founders/laurent-py.png"
+                },
+                {
                     "name": "Soheil Feizi",
-                    "title": "Founder & CEO",
-                    "bio": "Associate Professor (on leave) UMD CS. PhD MIT, postdoc Stanford. 2024 PECASE awardee. Testified before U.S. House Bipartisan Task Force on AI.",
-                    "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/"
+                    "title": "Co-Founder & CSO",
+                    "bio": "Associate Professor (on leave), University of Maryland. PhD MIT, postdoc Stanford. 2024 PECASE recipient.",
+                    "linkedin": "https://www.linkedin.com/in/soheil-feizi-b14a4895/",
+                    "headshot": "/static/img/founders/soheil-feizi.jpg"
+                },
+                {
+                    "name": "Priyatham Kattakinda",
+                    "title": "Co-Founder & Head of Engineering",
+                    "bio": "PhD from University of Maryland in ML systems reliability.",
+                    "linkedin": "https://www.linkedin.com/in/priyathamkat/",
+                    "headshot": "/static/img/founders/priyatham-kattakinda.jpg"
                 },
                 {
                     "name": "Wenxiao Wang",
                     "title": "Co-Founder & Head of AI",
-                    "bio": "PhD UMD, BS Tsinghua Yao Class. Publications at ICML, ICLR, NeurIPS. Previously at Sony AI and ByteDance.",
-                    "linkedin": ""
-                },
-                {
-                    "name": "Priyatham Kattakinda",
-                    "title": "Co-Founder & Technical Lead",
-                    "bio": "PhD UMD focused on reliability for language and vision models. NSF I-Corps national.",
-                    "linkedin": ""
+                    "bio": "PhD from University of Maryland, BS from Tsinghua Yao Class. 2,000+ citations.",
+                    "linkedin": "https://www.linkedin.com/in/wenxiaowang/",
+                    "headshot": "/static/img/founders/wenxiao-wang.jpg"
                 }
             ],
-            "featured": false
+            "featured": true
         },
         {
             "slug": "qbg",
@@ -336,11 +312,7 @@
             "team_size": "2-5",
             "stage": "Pre-revenue",
             "funding": "Bootstrapped, $20K milestone pending",
-            "categories": [
-                "Consulting",
-                "Vertical AI",
-                "Enterprise"
-            ],
+            "categories": [],
             "founders": [
                 {
                     "name": "Co-Founder",
@@ -356,6 +328,45 @@
                 }
             ],
             "featured": false
+        },
+        {
+            "slug": "narada",
+            "name": "Narada AI",
+            "tagline": "Agentic automation platform using Large Action Models to automate complex enterprise workflows end-to-end.",
+            "description": "Narada AI is an agentic automation platform powered by a proprietary Large Action Model that can plan, orchestrate, and execute workflows across APIs, web apps, and enterprise systems. The platform dynamically decomposes tasks into smaller steps using an LLM compiler, executes them in parallel, and validates each step with built-in testing and self-healing. Narada targets enterprise testing, operations, and data validation workflows across systems like Workday, SAP, and internal tools, replacing brittle RPA solutions that break when interfaces change.",
+            "website": "https://www.narada.ai",
+            "linkedin": "https://www.linkedin.com/company/narada-ai",
+            "twitter": "https://twitter.com/Narada_AI",
+            "hq": "Berkeley, CA",
+            "year_founded": 2021,
+            "team_size": "11-20",
+            "stage": "Scaling (>$1M ARR)",
+            "funding": "$11.1M seed",
+            "categories": [],
+            "founders": [
+                {
+                    "name": "Dave Park",
+                    "title": "Co-Founder & CEO",
+                    "bio": "Co-founded Coverity out of Stanford CS PhD ($375M acquisition). 20+ years in enterprise software.",
+                    "linkedin": "https://www.linkedin.com/in/davidpark/",
+                    "headshot": ""
+                },
+                {
+                    "name": "Amir Gholami",
+                    "title": "Co-Founder & CTO",
+                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin. 50+ publications, 18,000+ citations.",
+                    "linkedin": "https://www.linkedin.com/in/a-gholami",
+                    "headshot": ""
+                },
+                {
+                    "name": "Kurt Keutzer",
+                    "title": "Co-Founder & CSO",
+                    "bio": "Professor, UC Berkeley EECS. Former CTO of Synopsys. Co-founded DeepScale (acq. Tesla), Nexusflow (acq. NVIDIA).",
+                    "linkedin": "https://www.linkedin.com/in/kurtkeutzer/",
+                    "headshot": ""
+                }
+            ],
+            "featured": true
         }
     ]
 }
