@@ -58,6 +58,7 @@
             </div>
             <div class="a16z-links">
               {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="a16z-link">{{ company.website|replace('https://', '')|replace('http://', '')|replace('/', '') }} ↗</a>{% endif %}
+              {% if company.email %}<a href="mailto:{{ company.email }}" class="a16z-link">{{ company.email }} ✉</a>{% endif %}
               {% if company.linkedin %}<a href="{{ company.linkedin }}" target="_blank" rel="noopener" class="a16z-link">LinkedIn ↗</a>{% endif %}
             </div>
           </div>

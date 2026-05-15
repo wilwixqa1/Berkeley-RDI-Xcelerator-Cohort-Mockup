@@ -67,7 +67,8 @@
                 }
             ],
             "featured": true,
-            "icon": "/static/img/companies/cognee/icon.png"
+            "icon": "/static/img/companies/cognee/icon.png",
+            "email": "social@cognee.ai"
         },
         {
             "slug": "nimblemind",
@@ -101,20 +102,21 @@
                     "headshot": "/static/img/founders/navin-kumar.jpg"
                 }
             ],
-            "featured": true
+            "featured": true,
+            "email": "contact@nimblemind.ai"
         },
         {
             "slug": "headroom-labs",
             "name": "Headroom",
             "tagline": "The context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals.",
-            "description": "Headroom is the context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals. The open-source proxy (1,300+ GitHub stars, 40K+ PyPI downloads, 50B tokens saved) integrates with LangChain, Claude Code, Codex, and MCP.",
+            "description": "Headroom is the context optimization layer for LLM agents, cutting tokens 40-90% losslessly across text, voice, and regulated verticals. The open-source proxy (1,700+ GitHub stars, 40K+ PyPI downloads, 200B+ tokens saved) integrates with LangChain, Claude Code, Codex, and MCP.",
             "website": "https://headroomlabs.ai",
             "linkedin": "",
             "twitter": "https://x.com/chopra_tejas",
             "logo": "/static/img/companies/headroom-labs/logo-full.png",
             "icon": "/static/img/companies/headroom-labs/icon.png",
             "hq": "Fremont, CA",
-            "year_founded": 2024,
+            "year_founded": 2026,
             "team_size": "1",
             "stage": "Pre-revenue",
             "funding": "Bootstrapped",
@@ -128,12 +130,13 @@
                     "headshot": "/static/img/founders/tejas-chopra.jpg"
                 }
             ],
-            "featured": true
+            "featured": true,
+            "email": "hello@headroomlabs.ai"
         },
         {
             "slug": "relai",
             "name": "RELAI",
-            "tagline": "Lifelong optimization engine for AI agents that turns production failures into replayable test environments.",
+            "tagline": "The learning engine for self-improving AI agents.",
             "description": "RELAI is a lifelong optimization engine for AI agents that turns production failures and user feedback into replayable test environments. Its continuous learning loop helps enterprise teams improve prompts, models, tools, memory and agent structure while increasing reliability and preventing regressions.",
             "website": "https://relai.ai/",
             "linkedin": "https://www.linkedin.com/company/relai-ai/",
@@ -176,7 +179,8 @@
                     "headshot": "/static/img/founders/wenxiao-wang.jpg"
                 }
             ],
-            "featured": true
+            "featured": true,
+            "email": "contact@relai.ai"
         },
         {
             "slug": "agntid",
@@ -237,7 +241,8 @@
                     "headshot": "/static/img/founders/talha-masood.jpg"
                 }
             ],
-            "featured": true
+            "featured": true,
+            "email": "talha@founding.dev"
         },
         {
             "slug": "armoriq",

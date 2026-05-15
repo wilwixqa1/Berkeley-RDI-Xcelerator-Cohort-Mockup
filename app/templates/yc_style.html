@@ -68,6 +68,7 @@
           </div>
           <div class="company-links">
             {% if company.website %}<a href="{{ company.website }}" target="_blank" rel="noopener" class="company-link">Website ↗</a>{% endif %}
+            {% if company.email %}<a href="mailto:{{ company.email }}" class="company-link">{{ company.email }} ✉</a>{% endif %}
             {% if company.linkedin %}<a href="{{ company.linkedin }}" target="_blank" rel="noopener" class="company-link">LinkedIn ↗</a>{% endif %}
           </div>
         </details>
