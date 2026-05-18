@@ -26,7 +26,7 @@
                 {
                     "name": "Amir Gholami",
                     "title": "Co-Founder & CTO",
-                    "bio": "Research Scientist at UC Berkeley BAIR. PhD UT Austin. Part of NVIDIA team that enabled FP16 training.",
+                    "bio": "Research Scientist at UC Berkeley BAIR and Sky lab. PhD UT Austin.",
                     "linkedin": "https://www.linkedin.com/in/a-gholami",
                     "headshot": "/static/img/founders/amir-gholami.jpg"
                 },
@@ -40,7 +40,8 @@
             ],
             "featured": true,
             "logo": "/static/img/companies/narada/logo-full.png",
-            "icon": "/static/img/companies/narada/icon.png"
+            "icon": "/static/img/companies/narada/icon.png",
+            "email": "connect@narada.ai"
         },
         {
             "slug": "cognee",
