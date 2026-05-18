@@ -284,7 +284,8 @@
             ],
             "featured": true,
             "logo": "/static/img/companies/armoriq/logo-full-dark.png",
-            "icon": "/static/img/companies/armoriq/icon.png"
+            "icon": "/static/img/companies/armoriq/icon.png",
+            "email": "founders@armoriq.io"
         },
         {
             "slug": "weereel",
